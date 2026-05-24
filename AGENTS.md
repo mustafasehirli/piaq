@@ -440,6 +440,7 @@ Sync stratejisi:
 - Kullanici degisikliklerini geri alma; dirty worktree varsay.
 - Manuel editlerde `apply_patch` kullan.
 - Dosya olustururken ve degistirirken kapsam disi refactor yapma.
+- Tekrarlayan ajan operasyonlari ve daha once cozulmus kurulum/push/hook durumlari icin `docs/agent-runbook.md` takip edilir.
 
 ---
 

@@ -665,8 +665,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Mustafa\\piaq\\AGENTS.md": {
-    "mtime": 1779625788.7851546,
-    "ast_hash": "352beac325f40bc70b2795163e39702e",
+    "mtime": 1779626911.6657999,
+    "ast_hash": "c8c045df2e68434286a7c32e926a2404",
     "semantic_hash": ""
   },
   "C:\\Users\\Mustafa\\piaq\\brand-spec.md": {
@@ -692,6 +692,11 @@
   "C:\\Users\\Mustafa\\piaq\\public\\Logo.png": {
     "mtime": 1778015520.878,
     "ast_hash": "2b4dde803d46712e378274a591d4f245",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Mustafa\\piaq\\docs\\agent-runbook.md": {
+    "mtime": 1779626911.6033173,
+    "ast_hash": "82acd7958b49203802562da90f2f754d",
     "semantic_hash": ""
   }
 }

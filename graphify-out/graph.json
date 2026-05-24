@@ -1440,7 +1440,7 @@
       "source_file": "app/departmanlar/DepartmentTabs.tsx",
       "source_location": "L1",
       "id": "app_departmanlar_departmenttabs_tsx",
-      "community": 36,
+      "community": 39,
       "norm_label": "departmenttabs.tsx"
     },
     {
@@ -1449,7 +1449,7 @@
       "source_file": "app/departmanlar/DepartmentTabs.tsx",
       "source_location": "L18",
       "id": "departmanlar_departmenttabs_departmenttabs",
-      "community": 36,
+      "community": 39,
       "norm_label": "departmenttabs"
     },
     {
@@ -1458,7 +1458,7 @@
       "source_file": "app/departmanlar/layout.tsx",
       "source_location": "L1",
       "id": "app_departmanlar_layout_tsx",
-      "community": 36,
+      "community": 39,
       "norm_label": "layout.tsx"
     },
     {
@@ -1467,7 +1467,7 @@
       "source_file": "app/departmanlar/layout.tsx",
       "source_location": "L4",
       "id": "departmanlar_layout_layout",
-      "community": 36,
+      "community": 39,
       "norm_label": "layout()"
     },
     {
@@ -1800,7 +1800,7 @@
       "source_file": "app/departmanlar/finans/page.tsx",
       "source_location": "L157",
       "id": "finans_page_moneyline",
-      "community": 29,
+      "community": 26,
       "norm_label": "moneyline()"
     },
     {
@@ -3195,7 +3195,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L1",
       "id": "app_musteriler_page_tsx",
-      "community": 33,
+      "community": 17,
       "norm_label": "page.tsx"
     },
     {
@@ -3204,7 +3204,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L9",
       "id": "musteriler_page_customerstatus",
-      "community": 33,
+      "community": 17,
       "norm_label": "customerstatus"
     },
     {
@@ -3213,7 +3213,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L11",
       "id": "musteriler_page_customerrow",
-      "community": 33,
+      "community": 17,
       "norm_label": "customerrow"
     },
     {
@@ -3222,7 +3222,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L30",
       "id": "musteriler_page_customers",
-      "community": 33,
+      "community": 17,
       "norm_label": "customers"
     },
     {
@@ -3231,7 +3231,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L39",
       "id": "musteriler_page_statuses",
-      "community": 33,
+      "community": 17,
       "norm_label": "statuses"
     },
     {
@@ -3240,7 +3240,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L41",
       "id": "musteriler_page_statustonemap",
-      "community": 33,
+      "community": 17,
       "norm_label": "statustonemap"
     },
     {
@@ -3249,7 +3249,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L47",
       "id": "musteriler_page_platformbadge",
-      "community": 35,
+      "community": 17,
       "norm_label": "platformbadge()"
     },
     {
@@ -3258,7 +3258,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L51",
       "id": "musteriler_page_musterilerpage",
-      "community": 33,
+      "community": 17,
       "norm_label": "musterilerpage()"
     },
     {
@@ -3501,7 +3501,7 @@
       "source_file": "app/musteriler/[slug]/components.tsx",
       "source_location": "L169",
       "id": "slug_components_getcustomerserviceclass",
-      "community": 35,
+      "community": 17,
       "norm_label": "getcustomerserviceclass()"
     },
     {
@@ -4383,7 +4383,7 @@
       "source_file": "app/pusula/page.tsx",
       "source_location": "L1",
       "id": "app_pusula_page_tsx",
-      "community": 33,
+      "community": 19,
       "norm_label": "page.tsx"
     },
     {
@@ -4392,7 +4392,7 @@
       "source_file": "app/pusula/page.tsx",
       "source_location": "L5",
       "id": "pusula_page_boards",
-      "community": 33,
+      "community": 19,
       "norm_label": "boards"
     },
     {
@@ -4401,7 +4401,7 @@
       "source_file": "app/pusula/page.tsx",
       "source_location": "L43",
       "id": "pusula_page_templates",
-      "community": 33,
+      "community": 19,
       "norm_label": "templates"
     },
     {
@@ -4410,7 +4410,7 @@
       "source_file": "app/pusula/page.tsx",
       "source_location": "L54",
       "id": "pusula_page_page",
-      "community": 33,
+      "community": 19,
       "norm_label": "page()"
     },
     {
@@ -4725,7 +4725,7 @@
       "source_file": "app/_components/common/ProductUI.tsx",
       "source_location": "L3",
       "id": "common_productui_producttone",
-      "community": 33,
+      "community": 19,
       "norm_label": "producttone"
     },
     {
@@ -4815,7 +4815,7 @@
       "source_file": "app/_components/common/ProductUI.tsx",
       "source_location": "L64",
       "id": "common_productui_valuetext",
-      "community": 19,
+      "community": 17,
       "norm_label": "valuetext()"
     },
     {
@@ -6579,7 +6579,7 @@
       "source_file": "app/_components/navigation/CollapsibleSectionNav.tsx",
       "source_location": "L57",
       "id": "navigation_collapsiblesectionnav_collapsiblesectionnav",
-      "community": 36,
+      "community": 39,
       "norm_label": "collapsiblesectionnav()"
     },
     {
@@ -6678,7 +6678,7 @@
       "source_file": "app/_components/plan/PlanItemCard.tsx",
       "source_location": "L1",
       "id": "app_components_plan_planitemcard_tsx",
-      "community": 1,
+      "community": 19,
       "norm_label": "planitemcard.tsx"
     },
     {
@@ -6687,7 +6687,7 @@
       "source_file": "app/_components/plan/PlanItemCard.tsx",
       "source_location": "L8",
       "id": "plan_planitemcard_planitemcard",
-      "community": 1,
+      "community": 19,
       "norm_label": "planitemcard()"
     },
     {
@@ -6714,7 +6714,7 @@
       "source_file": "app/_components/plan/PlanStatusMeta.ts",
       "source_location": "L1",
       "id": "app_components_plan_planstatusmeta_ts",
-      "community": 1,
+      "community": 19,
       "norm_label": "planstatusmeta.ts"
     },
     {
@@ -6723,7 +6723,7 @@
       "source_file": "app/_components/plan/PlanStatusMeta.ts",
       "source_location": "L4",
       "id": "plan_planstatusmeta_getplanitemstatusmeta",
-      "community": 1,
+      "community": 19,
       "norm_label": "getplanitemstatusmeta()"
     },
     {
@@ -6903,7 +6903,7 @@
       "source_file": "app/_components/pusula-plan/PusulaPlanProvider.tsx",
       "source_location": "L43",
       "id": "pusula_plan_pusulaplanprovider_pusulaplanprovider",
-      "community": 14,
+      "community": 1,
       "norm_label": "pusulaplanprovider()"
     },
     {
@@ -7740,7 +7740,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L1",
       "id": "components_appnavigation_tsx",
-      "community": 14,
+      "community": 33,
       "norm_label": "appnavigation.tsx"
     },
     {
@@ -7749,7 +7749,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L43",
       "id": "components_appnavigation_navicon",
-      "community": 14,
+      "community": 33,
       "norm_label": "navicon"
     },
     {
@@ -7758,7 +7758,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L45",
       "id": "components_appnavigation_navitem",
-      "community": 14,
+      "community": 33,
       "norm_label": "navitem"
     },
     {
@@ -7767,7 +7767,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L52",
       "id": "components_appnavigation_navseparator",
-      "community": 14,
+      "community": 33,
       "norm_label": "navseparator"
     },
     {
@@ -7776,7 +7776,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L57",
       "id": "components_appnavigation_naventry",
-      "community": 14,
+      "community": 33,
       "norm_label": "naventry"
     },
     {
@@ -7785,7 +7785,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L59",
       "id": "components_appnavigation_profilemenuitem",
-      "community": 14,
+      "community": 33,
       "norm_label": "profilemenuitem"
     },
     {
@@ -7794,7 +7794,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L66",
       "id": "components_appnavigation_mainitems",
-      "community": 14,
+      "community": 33,
       "norm_label": "mainitems"
     },
     {
@@ -7803,7 +7803,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L79",
       "id": "components_appnavigation_pagemeta",
-      "community": 14,
+      "community": 33,
       "norm_label": "pagemeta"
     },
     {
@@ -7812,7 +7812,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L113",
       "id": "components_appnavigation_notificationitems",
-      "community": 14,
+      "community": 33,
       "norm_label": "notificationitems"
     },
     {
@@ -7821,7 +7821,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L148",
       "id": "components_appnavigation_getnotificationtone",
-      "community": 14,
+      "community": 33,
       "norm_label": "getnotificationtone()"
     },
     {
@@ -7830,7 +7830,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L184",
       "id": "components_appnavigation_isactive",
-      "community": 14,
+      "community": 33,
       "norm_label": "isactive()"
     },
     {
@@ -7839,7 +7839,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L189",
       "id": "components_appnavigation_navlink",
-      "community": 14,
+      "community": 33,
       "norm_label": "navlink()"
     },
     {
@@ -7848,7 +7848,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L232",
       "id": "components_appnavigation_notificationcenterbutton",
-      "community": 14,
+      "community": 33,
       "norm_label": "notificationcenterbutton()"
     },
     {
@@ -7857,7 +7857,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L337",
       "id": "components_appnavigation_profilemenubutton",
-      "community": 14,
+      "community": 33,
       "norm_label": "profilemenubutton()"
     },
     {
@@ -8127,7 +8127,7 @@
       "source_file": "lib/data/channels.ts",
       "source_location": "L55",
       "id": "data_channels_getchannelbadgeclass",
-      "community": 35,
+      "community": 17,
       "norm_label": "getchannelbadgeclass()"
     },
     {
@@ -8154,7 +8154,7 @@
       "source_file": "lib/data/dashboard.ts",
       "source_location": "L4",
       "id": "data_dashboard_timerange",
-      "community": 14,
+      "community": 33,
       "norm_label": "timerange"
     },
     {
@@ -8244,7 +8244,7 @@
       "source_file": "lib/data/dashboard.ts",
       "source_location": "L67",
       "id": "data_dashboard_timeranges",
-      "community": 14,
+      "community": 33,
       "norm_label": "timeranges"
     },
     {
@@ -8881,7 +8881,7 @@
       "label": "Gelistirme Komutlari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L446",
+      "source_location": "L447",
       "id": "piaq_agents_gelistirme_komutlari",
       "community": 10,
       "norm_label": "gelistirme komutlari"
@@ -8890,7 +8890,7 @@
       "label": "code:bash (npm install)",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L448",
+      "source_location": "L449",
       "id": "piaq_agents_codeblock_2",
       "community": 10,
       "norm_label": "code:bash (npm install)"
@@ -8899,7 +8899,7 @@
       "label": "code:bash (npm.cmd run type-check)",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L458",
+      "source_location": "L459",
       "id": "piaq_agents_codeblock_3",
       "community": 10,
       "norm_label": "code:bash (npm.cmd run type-check)"
@@ -8908,7 +8908,7 @@
       "label": "Ortam Degiskenleri",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L465",
+      "source_location": "L466",
       "id": "piaq_agents_ortam_degiskenleri",
       "community": 10,
       "norm_label": "ortam degiskenleri"
@@ -8917,7 +8917,7 @@
       "label": "code:txt (NEXT_PUBLIC_SUPABASE_URL=)",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L469",
+      "source_location": "L470",
       "id": "piaq_agents_codeblock_4",
       "community": 10,
       "norm_label": "code:txt (next_public_supabase_url=)"
@@ -8926,7 +8926,7 @@
       "label": "Guvenlik Kurallari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L492",
+      "source_location": "L493",
       "id": "piaq_agents_guvenlik_kurallari",
       "community": 10,
       "norm_label": "guvenlik kurallari"
@@ -8935,7 +8935,7 @@
       "label": "Son Durum Notlari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L502",
+      "source_location": "L503",
       "id": "piaq_agents_son_durum_notlari",
       "community": 10,
       "norm_label": "son durum notlari"
@@ -8944,7 +8944,7 @@
       "label": "graphify",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L535",
+      "source_location": "L536",
       "id": "piaq_agents_graphify",
       "community": 10,
       "norm_label": "graphify"
@@ -8953,7 +8953,7 @@
       "label": "Context Navigation",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L539",
+      "source_location": "L540",
       "id": "piaq_agents_context_navigation",
       "community": 10,
       "norm_label": "context navigation"
@@ -15698,6 +15698,96 @@
       "id": "graphify_skill_honesty_rules",
       "community": 9,
       "norm_label": "honesty rules"
+    },
+    {
+      "label": "agent-runbook.md",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L1",
+      "id": "docs_agent_runbook_md",
+      "community": 34,
+      "norm_label": "agent-runbook.md"
+    },
+    {
+      "label": "Agent Runbook",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L1",
+      "id": "docs_agent_runbook_agent_runbook",
+      "community": 34,
+      "norm_label": "agent runbook"
+    },
+    {
+      "label": "Kullanim Kurallari",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L5",
+      "id": "docs_agent_runbook_kullanim_kurallari",
+      "community": 34,
+      "norm_label": "kullanim kurallari"
+    },
+    {
+      "label": "Genel Is Akisi",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L12",
+      "id": "docs_agent_runbook_genel_is_akisi",
+      "community": 34,
+      "norm_label": "genel is akisi"
+    },
+    {
+      "label": "Graphify Kurulum ve Dogrulama",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L23",
+      "id": "docs_agent_runbook_graphify_kurulum_ve_dogrulama",
+      "community": 34,
+      "norm_label": "graphify kurulum ve dogrulama"
+    },
+    {
+      "label": "Graphify Hook Kurulumu",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L32",
+      "id": "docs_agent_runbook_graphify_hook_kurulumu",
+      "community": 34,
+      "norm_label": "graphify hook kurulumu"
+    },
+    {
+      "label": "GitHub Ilk Push Sureci",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L40",
+      "id": "docs_agent_runbook_github_ilk_push_sureci",
+      "community": 34,
+      "norm_label": "github ilk push sureci"
+    },
+    {
+      "label": "GitHub Ilk Push Sorunlari",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L55",
+      "id": "docs_agent_runbook_github_ilk_push_sorunlari",
+      "community": 34,
+      "norm_label": "github ilk push sorunlari"
+    },
+    {
+      "label": "Windows Izin ve Escalation Notlari",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L65",
+      "id": "docs_agent_runbook_windows_izin_ve_escalation_notlari",
+      "community": 34,
+      "norm_label": "windows izin ve escalation notlari"
+    },
+    {
+      "label": "Runbook Guncelleme Kriteri",
+      "file_type": "document",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L73",
+      "id": "docs_agent_runbook_runbook_guncelleme_kriteri",
+      "community": 34,
+      "norm_label": "runbook guncelleme kriteri"
     },
     {
       "label": "color-catalog.md",
@@ -38294,6 +38384,96 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_md",
+      "target": "docs_agent_runbook_agent_runbook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_kullanim_kurallari",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_genel_is_akisi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_graphify_kurulum_ve_dogrulama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_graphify_hook_kurulumu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_github_ilk_push_sureci",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_github_ilk_push_sorunlari",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_windows_izin_ve_escalation_notlari",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agent-runbook.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "docs_agent_runbook_agent_runbook",
+      "target": "docs_agent_runbook_runbook_guncelleme_kriteri",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/color-catalog.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -38352,5 +38532,6 @@
       "target": "docs_color_catalog_rules"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "96d23ef3963e70bc299f2df9e51fb45d3dbe1f03"
 }

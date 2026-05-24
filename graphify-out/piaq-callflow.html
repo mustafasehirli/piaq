@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>piaq — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1751 nodes, 2200 edges, 53 communities. Commit: unknown</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1761 nodes, 2209 edges, 54 communities. Commit: 96d23ef</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -71,13 +71,13 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
     <a href="#serve-api">Serving API</a>
     <a href="#tests-fixtures">Tests &amp; Fixtures</a>
     <a href="#community-0">Community 0</a>
+    <a href="#community-17">Community 17</a>
     <a href="#community-2">Community 2</a>
     <a href="#community-4">Community 4</a>
-    <a href="#community-17">Community 17</a>
     <a href="#community-5">Community 5</a>
     <a href="#community-6">Community 6</a>
     <a href="#community-7">Community 7</a>
-    <a href="#community-14">Community 14</a>
+    <a href="#community-11">Community 11</a>
     <a href="#other">Other</a>
 </div>
 
@@ -90,9 +90,9 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 flowchart LR
     BUILD_GRAPH_321CBB04("Graph Build<br/><small>75 nodes</small>")
     class BUILD_GRAPH_321CBB04 module;
-    OUTPUTS_DOCS_ED82387C("Outputs &amp; Docs<br/><small>58 nodes</small>")
+    OUTPUTS_DOCS_ED82387C("Outputs &amp; Docs<br/><small>55 nodes</small>")
     class OUTPUTS_DOCS_ED82387C module;
-    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>78 nodes</small>")
+    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>88 nodes</small>")
     class CLI_SKILLS_9964CBB8 module;
     INGEST_CACHE_UPDATE_FF457338("Ingestion &amp; Updates<br/><small>49 nodes</small>")
     class INGEST_CACHE_UPDATE_FF457338 module;
@@ -102,34 +102,34 @@ flowchart LR
     class TESTS_FIXTURES_B84B1DCC module;
     COMMUNITY_0_B056AD3D("Community 0<br/><small>662 nodes</small>")
     class COMMUNITY_0_B056AD3D module;
+    COMMUNITY_17_648F8D7C("Community 17<br/><small>57 nodes</small>")
+    class COMMUNITY_17_648F8D7C module;
     COMMUNITY_2_8C8DF7B9("Community 2<br/><small>49 nodes</small>")
     class COMMUNITY_2_8C8DF7B9 module;
     COMMUNITY_4_AC2DC2A9("Community 4<br/><small>47 nodes</small>")
     class COMMUNITY_4_AC2DC2A9 module;
-    COMMUNITY_17_648F8D7C("Community 17<br/><small>46 nodes</small>")
-    class COMMUNITY_17_648F8D7C module;
     COMMUNITY_5_2966028D("Community 5<br/><small>45 nodes</small>")
     class COMMUNITY_5_2966028D module;
     COMMUNITY_6_7D637A07("Community 6<br/><small>44 nodes</small>")
     class COMMUNITY_6_7D637A07 module;
     COMMUNITY_7_989501FC("Community 7<br/><small>44 nodes</small>")
     class COMMUNITY_7_989501FC module;
-    COMMUNITY_14_21BC55C3("Community 14<br/><small>43 nodes</small>")
-    class COMMUNITY_14_21BC55C3 module;
-    OTHER_D0941E68("Other<br/><small>451 nodes</small>")
+    COMMUNITY_11_DE018FC2("Community 11<br/><small>32 nodes</small>")
+    class COMMUNITY_11_DE018FC2 module;
+    OTHER_D0941E68("Other<br/><small>454 nodes</small>")
     class OTHER_D0941E68 module;
-    OTHER_D0941E68 -->|imports x19| OUTPUTS_DOCS_ED82387C
-    OTHER_D0941E68 -->|imports x11| COMMUNITY_17_648F8D7C
-    COMMUNITY_17_648F8D7C -->|imports x6| OTHER_D0941E68
-    OUTPUTS_DOCS_ED82387C -->|imports x6| OTHER_D0941E68
-    OTHER_D0941E68 -->|imports x5| COMMUNITY_14_21BC55C3
+    OTHER_D0941E68 -->|imports x24| COMMUNITY_17_648F8D7C
+    OTHER_D0941E68 -->|imports x21| OUTPUTS_DOCS_ED82387C
+    COMMUNITY_17_648F8D7C -->|imports x11| OTHER_D0941E68
+    COMMUNITY_11_DE018FC2 -->|imports x8| OTHER_D0941E68
     INGEST_CACHE_UPDATE_FF457338 -->|imports x4| OTHER_D0941E68
     COMMUNITY_2_8C8DF7B9 -->|imports x4| OTHER_D0941E68
-    OTHER_D0941E68 -->|imports x4| COMMUNITY_5_2966028D
-    OTHER_D0941E68 -->|imports x4| COMMUNITY_4_AC2DC2A9
-    COMMUNITY_14_21BC55C3 -->|imports x3| OTHER_D0941E68
-    COMMUNITY_14_21BC55C3 -->|imports x3| COMMUNITY_17_648F8D7C
+    OUTPUTS_DOCS_ED82387C -->|imports x4| OTHER_D0941E68
+    OTHER_D0941E68 -->|imports x3| COMMUNITY_5_2966028D
+    OTHER_D0941E68 -->|imports x3| COMMUNITY_4_AC2DC2A9
     OTHER_D0941E68 -->|imports x2| TESTS_FIXTURES_B84B1DCC
+    COMMUNITY_6_7D637A07 -->|imports x2| OTHER_D0941E68
+    COMMUNITY_7_989501FC -->|imports x2| OTHER_D0941E68
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -146,19 +146,19 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>75</td><td><code>12, 22, 31, 46, 55</code></td></tr><tr><td>Outputs &amp; Docs</td><td>58</td><td><code>1</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>78</td><td><code>8, 9</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>49</td><td><code>3</code></td></tr><tr><td>Serving API</td><td>35</td><td><code>10</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>25</td><td><code>16</code></td></tr><tr><td>Community 0</td><td>662</td><td><code>0</code></td></tr><tr><td>Community 2</td><td>49</td><td><code>2</code></td></tr><tr><td>Community 4</td><td>47</td><td><code>4</code></td></tr><tr><td>Community 17</td><td>46</td><td><code>17</code></td></tr><tr><td>Community 5</td><td>45</td><td><code>5</code></td></tr><tr><td>Community 6</td><td>44</td><td><code>6</code></td></tr><tr><td>Community 7</td><td>44</td><td><code>7</code></td></tr><tr><td>Community 14</td><td>43</td><td><code>14</code></td></tr><tr><td>Other</td><td>451</td><td><code>11, 15, 13, 18, 30, 19, 20, 21, 23, 24, 25, 27, 28, 29, 26, 35, 32, 36, 37, 39, 33, 41, 42, 43, 45, 47, 48, 49, 50, 51, 52, 53, 54, 56</code></td></tr>
+      <tr><td>Graph Build</td><td>75</td><td><code>12, 22, 31, 46, 55</code></td></tr><tr><td>Outputs &amp; Docs</td><td>55</td><td><code>1</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>88</td><td><code>8, 9, 34</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>49</td><td><code>3</code></td></tr><tr><td>Serving API</td><td>35</td><td><code>10</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>25</td><td><code>16</code></td></tr><tr><td>Community 0</td><td>662</td><td><code>0</code></td></tr><tr><td>Community 17</td><td>57</td><td><code>17</code></td></tr><tr><td>Community 2</td><td>49</td><td><code>2</code></td></tr><tr><td>Community 4</td><td>47</td><td><code>4</code></td></tr><tr><td>Community 5</td><td>45</td><td><code>5</code></td></tr><tr><td>Community 6</td><td>44</td><td><code>6</code></td></tr><tr><td>Community 7</td><td>44</td><td><code>7</code></td></tr><tr><td>Community 11</td><td>32</td><td><code>11</code></td></tr><tr><td>Other</td><td>454</td><td><code>19, 14, 15, 13, 18, 30, 20, 21, 23, 24, 25, 26, 27, 28, 29, 39, 32, 33, 35, 37, 36, 41, 42, 43, 45, 47, 48, 49, 50, 51, 52, 53, 54, 56</code></td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Core Flow</h4>
-    <div class="arrow-chain">Graph Build -&gt; Outputs &amp; Docs -&gt; Other -&gt; Community 17 -&gt; Community 14 -&gt; CLI &amp; Skill Installers -&gt; Ingestion &amp; Updates</div>
+    <div class="arrow-chain">Graph Build -&gt; Outputs &amp; Docs -&gt; Other -&gt; Community 17 -&gt; Ingestion &amp; Updates -&gt; CLI &amp; Skill Installers -&gt; Serving API</div>
   </div>
 </div>
 <div class="grid">
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1751 nodes · 2200 edges · 53 communities (47 shown, 6 thin omitted)</li>
+      <li>1761 nodes · 2209 edges · 54 communities (48 shown, 6 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `StatusBadge()` - 24 edges</li>
@@ -516,19 +516,15 @@ flowchart LR
 
 <!-- ====== 3. Outputs & Docs ====== -->
 <h2 id="outputs-docs">3. Outputs &amp; Docs</h2>
-<p>Outputs &amp; Docs groups implementation around app, components, plan, pusula, mostly in _components/plan/PlanDraftDetailPanel.tsx, _components/pusula-plan/PusulaPlanProvider.tsx, lib/plan/types.ts. This section covers 58 nodes and 102 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Outputs &amp; Docs groups implementation around app, components, pusula, plan, mostly in _components/plan/PlanDraftDetailPanel.tsx, _components/pusula-plan/PusulaPlanProvider.tsx, lib/plan/types.ts. This section covers 55 nodes and 94 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Outputs &amp; Docs (58 nodes, 102 edges)
+    %% Section: Outputs &amp; Docs (55 nodes, 94 edges)
     subgraph outputs_docs_components_canvas_PannableCanvasVie_a986f361["_components/canvas/PannableCanvasView.tsx"]
         app_components_canvas_pannablecanvasview_tsx_2742e757("PannableCanvasView.tsx")
         canvas_pannablecanvasview_pannablecanvasview_f9346b9f("PannableCanvasView()<br/><small>_components/canvas/PannableCanvasView.tsx</small>")
-    end
-    subgraph outputs_docs_components_plan_PlanItemCard_tsx_196d0205["_components/plan/PlanItemCard.tsx"]
-        app_components_plan_planitemcard_tsx_62e3e6f4("PlanItemCard.tsx")
-        plan_planitemcard_planitemcard_b0c068c9("PlanItemCard()<br/><small>_components/plan/PlanItemCard.tsx</small>")
     end
     subgraph outputs_docs_components_pusula_plan_PusulaPlanPr_128abcc0["_components/pusula-plan/PusulaPlanProvider.tsx"]
         app_components_pusula_plan_pusulaplanprovider_ts_489797b3("PusulaPlanProvider.tsx")
@@ -546,13 +542,14 @@ flowchart LR
         pusula_pusulanodemeta_getpusulanodestatusmeta_a884ca39("getPusulaNodeStatusMeta()<br/><small>_components/pusula/PusulaNodeMeta.ts</small>")
         pusula_pusulanodemeta_getpusulanodetypelabel_faa51566("getPusulaNodeTypeLabel()<br/><small>_components/pusula/PusulaNodeMeta.ts</small>")
     end
+    app_components_plan_plandraftcard_tsx_5e10a447("PlanDraftCard.tsx")
     app_components_plan_plandraftdetailpanel_tsx_f1fd5eb2("PlanDraftDetailPanel.tsx")
-    plan_planstatusmeta_getplanitemstatusmeta_adfe0813("getPlanItemStatusMeta()<br/><small>_components/plan/PlanStatusMeta.ts</small>")
+    app_components_pusula_pusulacanvasview_tsx_3afc6ae5("PusulaCanvasView.tsx")
     app_components_pusula_pusulanodelayer_tsx_77587f76("PusulaNodeLayer.tsx")
     app_ajans_plan_page_tsx_1e3dd4b6("page.tsx")
+    lib_plan_data_ts_8e4790fd("data.ts")
     app_musteriler_slug_plantab_tsx_8f5468f7("PlanTab.tsx")
     app_pusula_tahta_page_tsx_3c58c158("page.tsx")
-    plan_planitemcard_planitemcard_b0c068c9 -->|calls| plan_planstatusmeta_getplanitemstatusmeta_adfe0813
     pusula_pusulaboardview_pusulaboardview_b6cc71a1 -->|calls| pusula_plan_pusulaplanprovider_usepusulaplan_ad2057c9
     pusula_pusulanodedetailpanel_pusulanodedetailpan_31140c8c -->|calls| pusula_pusulanodemeta_getpusulanodestatusmeta_a884ca39
     pusula_pusulanodedetailpanel_pusulanodedetailpan_31140c8c -->|calls| pusula_pusulanodemeta_getpusulanodetypelabel_faa51566
@@ -562,9 +559,11 @@ flowchart LR
     app_musteriler_slug_plantab_tsx_8f5468f7 -->|imports| canvas_pannablecanvasview_pannablecanvasview_f9346b9f
     app_pusula_tahta_page_tsx_3c58c158 -->|imports| app_components_pusula_pusulaboardview_tsx_2dd92a52
     app_pusula_tahta_page_tsx_3c58c158 -->|imports| pusula_pusulaboardview_pusulaboardview_b6cc71a1
-    app_components_plan_planitemcard_tsx_62e3e6f4 -->|imports| plan_planstatusmeta_getplanitemstatusmeta_adfe0813
+    app_components_canvas_pannablecanvasview_tsx_2742e757 -->|imports| app_components_pusula_pusulacanvasview_tsx_3afc6ae5
+    canvas_pannablecanvasview_pannablecanvasview_f9346b9f -->|imports| app_components_pusula_pusulacanvasview_tsx_3afc6ae5
     app_components_pusula_pusulaboardview_tsx_2dd92a52 -->|imports| app_components_pusula_plan_pusulaplanprovider_ts_489797b3
     app_components_pusula_pusulaboardview_tsx_2dd92a52 -->|imports| pusula_plan_pusulaplanprovider_usepusulaplan_ad2057c9
+    app_components_pusula_pusulaboardview_tsx_2dd92a52 -->|imports| app_components_pusula_pusulacanvasview_tsx_3afc6ae5
     app_components_pusula_pusulaboardview_tsx_2dd92a52 -->|imports| app_components_pusula_pusulanodedetailpanel_tsx_e16d3531
     app_components_pusula_pusulaboardview_tsx_2dd92a52 -->|imports| pusula_pusulanodedetailpanel_pusulanodedetailpan_31140c8c
     app_components_pusula_pusulaboardview_tsx_2dd92a52 -->|imports| app_components_pusula_pusulanodelayer_tsx_77587f76
@@ -572,11 +571,10 @@ flowchart LR
     app_components_pusula_pusulanodedetailpanel_tsx_e16d3531 -->|imports| pusula_pusulanodemeta_getpusulanodetypelabel_faa51566
     app_components_pusula_pusulanodelayer_tsx_77587f76 -->|imports| pusula_pusulanodemeta_getpusulanodestatusmeta_a884ca39
     app_components_pusula_pusulanodelayer_tsx_77587f76 -->|imports| pusula_pusulanodemeta_getpusulanodetypelabel_faa51566
-    %% Omitted for readability: 40 nodes, 0 edges
+    app_components_pusula_plan_pusulaplanprovider_ts_489797b3 -->|imports| lib_plan_data_ts_8e4790fd
+    %% Omitted for readability: 37 nodes, 0 edges
     class app_components_canvas_pannablecanvasview_tsx_2742e757 ui;
     class canvas_pannablecanvasview_pannablecanvasview_f9346b9f ui;
-    class app_components_plan_planitemcard_tsx_62e3e6f4 ui;
-    class plan_planitemcard_planitemcard_b0c068c9 ui;
     class app_components_pusula_plan_pusulaplanprovider_ts_489797b3 ui;
     class pusula_plan_pusulaplanprovider_usepusulaplan_ad2057c9 ui;
     class app_components_pusula_pusulaboardview_tsx_2dd92a52 ui;
@@ -585,10 +583,12 @@ flowchart LR
     class pusula_pusulanodedetailpanel_pusulanodedetailpan_31140c8c ui;
     class pusula_pusulanodemeta_getpusulanodestatusmeta_a884ca39 function;
     class pusula_pusulanodemeta_getpusulanodetypelabel_faa51566 function;
+    class app_components_plan_plandraftcard_tsx_5e10a447 ui;
     class app_components_plan_plandraftdetailpanel_tsx_f1fd5eb2 ui;
-    class plan_planstatusmeta_getplanitemstatusmeta_adfe0813 function;
+    class app_components_pusula_pusulacanvasview_tsx_3afc6ae5 ui;
     class app_components_pusula_pusulanodelayer_tsx_77587f76 ui;
     class app_ajans_plan_page_tsx_1e3dd4b6 ui;
+    class lib_plan_data_ts_8e4790fd module;
     class app_musteriler_slug_plantab_tsx_8f5468f7 ui;
     class app_pusula_tahta_page_tsx_3c58c158 ui;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
@@ -766,38 +766,6 @@ flowchart LR
 </tr>
 <tr>
   <td>20</td>
-  <td><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>getPlanItemStatusMeta()</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small><br><code>PlanItem</code><br><small style="color:var(--muted)">lib/plan/types.ts</small><br><code>PlanStatusMeta.ts</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small><br>+1 more</td>
-  <td>Module file in _components/plan/PlanItemCard.tsx.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>PlanItemCard()</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>getPlanItemStatusMeta()</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small></td>
-  <td>PlanItemCard() node in _components/plan/PlanItemCard.tsx.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>PlanStatusMeta.ts</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small></td>
-  <td><code>PlanItemStatus</code><br><small style="color:var(--muted)">lib/plan/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/plan/types.ts</small></td>
-  <td>Module file in _components/plan/PlanStatusMeta.ts.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>getPlanItemStatusMeta()</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>PlanItemCard()</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small><br><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>getPlanItemStatusMeta() node in _components/plan/PlanStatusMeta.ts.</td>
-</tr>
-<tr>
-  <td>24</td>
   <td><code>PusulaBoardView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">pusula/tahta/page.tsx</small></td>
@@ -805,7 +773,7 @@ flowchart LR
   <td>Module file in _components/pusula/PusulaBoardView.tsx.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>21</td>
   <td><code>PusulaBoardView()</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">pusula/tahta/page.tsx</small></td>
@@ -813,7 +781,7 @@ flowchart LR
   <td>PusulaBoardView() node in _components/pusula/PusulaBoardView.tsx.</td>
 </tr>
 <tr>
-  <td>26</td>
+  <td>22</td>
   <td><code>PusulaCanvasView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaCanvasView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>PannableCanvasView()</code><br><small style="color:var(--muted)">_components/canvas/PannableCanvasView.tsx</small><br><code>PannableCanvasView.tsx</code><br><small style="color:var(--muted)">_components/canvas/PannableCanvasView.tsx</small><br><code>PusulaBoardView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
@@ -821,7 +789,7 @@ flowchart LR
   <td>Module file in _components/pusula/PusulaCanvasView.tsx.</td>
 </tr>
 <tr>
-  <td>27</td>
+  <td>23</td>
   <td><code>PusulaCanvasViewProps</code><br><small style="color:var(--muted)">_components/pusula/PusulaCanvasView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -829,7 +797,7 @@ flowchart LR
   <td>PusulaCanvasViewProps node in _components/pusula/PusulaCanvasView.tsx.</td>
 </tr>
 <tr>
-  <td>28</td>
+  <td>24</td>
   <td><code>PusulaCanvasView()</code><br><small style="color:var(--muted)">_components/pusula/PusulaCanvasView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>PusulaBoardView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
@@ -837,7 +805,7 @@ flowchart LR
   <td>PusulaCanvasView() node in _components/pusula/PusulaCanvasView.tsx.</td>
 </tr>
 <tr>
-  <td>29</td>
+  <td>25</td>
   <td><code>PusulaNodeDetailPanel.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeDetailPanel.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>PusulaBoardView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
@@ -845,12 +813,44 @@ flowchart LR
   <td>Module file in _components/pusula/PusulaNodeDetailPanel.tsx.</td>
 </tr>
 <tr>
-  <td>30</td>
+  <td>26</td>
   <td><code>PusulaNodeDetailPanelProps</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeDetailPanel.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>PusulaNodeDetailPanelProps node in _components/pusula/PusulaNodeDetailPanel.tsx.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>PusulaNodeDetailPanel()</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeDetailPanel.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>PusulaBoardView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
+  <td><code>getPusulaNodeStatusMeta()</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeMeta.ts</small><br><code>getPusulaNodeTypeLabel()</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeMeta.ts</small></td>
+  <td>PusulaNodeDetailPanel() node in _components/pusula/PusulaNodeDetailPanel.tsx.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>PusulaNodeLayer.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeLayer.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>PusulaBoardView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
+  <td><code>getPusulaNodeStatusMeta()</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeMeta.ts</small><br><code>getPusulaNodeTypeLabel()</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeMeta.ts</small><br><code>PusulaNode</code><br><small style="color:var(--muted)">lib/pusula/types.ts</small><br>+2 more</td>
+  <td>Module file in _components/pusula/PusulaNodeLayer.tsx.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>PusulaNodeLayerProps</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeLayer.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>PusulaNodeLayerProps node in _components/pusula/PusulaNodeLayer.tsx.</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td><code>PusulaNodeLayer()</code><br><small style="color:var(--muted)">_components/pusula/PusulaNodeLayer.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>PusulaBoardView.tsx</code><br><small style="color:var(--muted)">_components/pusula/PusulaBoardView.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>PusulaNodeLayer() node in _components/pusula/PusulaNodeLayer.tsx.</td>
 </tr>
 </table>
 
@@ -860,7 +860,7 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>_components/plan/PlanDraftDetailPanel.tsx</code></td><td>7 nodes</td></tr>
-<tr><td><code>_components/pusula-plan/PusulaPlanProvider.tsx</code></td><td>6 nodes</td></tr>
+<tr><td><code>_components/pusula-plan/PusulaPlanProvider.tsx</code></td><td>7 nodes</td></tr>
 <tr><td><code>lib/plan/types.ts</code></td><td>6 nodes</td></tr>
 <tr><td><code>lib/pusula/types.ts</code></td><td>4 nodes</td></tr>
 <tr><td><code>_components/canvas/PannableCanvasView.tsx</code></td><td>3 nodes</td></tr>
@@ -871,37 +871,39 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x40, imports x34, imports x24, calls x4. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x39, imports x31, imports x21, calls x3. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
 <!-- ====== 4. CLI & Skill Installers ====== -->
 <h2 id="cli-skills">4. CLI &amp; Skill Installers</h2>
-<p>CLI &amp; Skill Installers groups implementation around graphify, skillmd, agents, skills, mostly in skills/graphify/SKILL.md. This section covers 78 nodes and 77 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>CLI &amp; Skill Installers groups implementation around graphify, skillmd, agents, skills, mostly in skills/graphify/SKILL.md, docs/agent-runbook.md. This section covers 88 nodes and 86 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: CLI &amp; Skill Installers (78 nodes, 77 edges)
-    graphify_skill_graphify_00571124("/graphify<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_what_you_must_do_when_invoked_5af525ab("What You Must Do When Invoked<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_part_b_semantic_extraction_parall_4fcd6ef3("Part B - Semantic extraction (parallel...<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_update_incremental_re_extract_99047ce2("For --update (incremental re-extraction)<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_graphify_explain_155ff82c("For /graphify explain<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_graphify_path_c64904f9("For /graphify path<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_graphify_query_aff19be5("For /graphify query<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_step_3_extract_entities_and_relat_7f871a40("Step 3 - Extract entities and relations...<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_native_claude_md_integration_2b22d675("For native CLAUDE.md integration<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_step_2_detect_files_017af156("Step 2 - Detect files<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_step_6_generate_obsidian_vault_op_bf4a60a3("Step 6 - Generate Obsidian vault (opt-i...<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_step_7_neo4j_export_only_if_neo4j_249c9360("Step 7 - Neo4j export (only if --neo4j...<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_step_7d_mcp_server_only_if_mcp_fl_ead4dbd8("Step 7d - MCP server (only if --mcp flag)<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_step_9_save_manifest_update_cost_54c25428("Step 9 - Save manifest, update cost tra...<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_cluster_only_267d3d83("For --cluster-only<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_watch_6fe8b70a("For --watch<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_graphify_add_7475de75("For /graphify add<br/><small>skills/graphify/SKILL.md</small>")
-    graphify_skill_for_git_commit_hook_18a1b5d0("For git commit hook<br/><small>skills/graphify/SKILL.md</small>")
+    %% Section: CLI &amp; Skill Installers (88 nodes, 86 edges)
+    subgraph cli_skills_skills_graphify_SKILL_md_ba798e49["skills/graphify/SKILL.md"]
+        graphify_skill_graphify_00571124("/graphify<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_what_you_must_do_when_invoked_5af525ab("What You Must Do When Invoked<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_part_b_semantic_extraction_parall_4fcd6ef3("Part B - Semantic extraction (parallel...<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_update_incremental_re_extract_99047ce2("For --update (incremental re-extraction)<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_graphify_explain_155ff82c("For /graphify explain<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_graphify_path_c64904f9("For /graphify path<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_graphify_query_aff19be5("For /graphify query<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_step_3_extract_entities_and_relat_7f871a40("Step 3 - Extract entities and relations...<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_native_claude_md_integration_2b22d675("For native CLAUDE.md integration<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_step_2_detect_files_017af156("Step 2 - Detect files<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_step_6_generate_obsidian_vault_op_bf4a60a3("Step 6 - Generate Obsidian vault (opt-i...<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_step_7_neo4j_export_only_if_neo4j_249c9360("Step 7 - Neo4j export (only if --neo4j...<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_step_7d_mcp_server_only_if_mcp_fl_ead4dbd8("Step 7d - MCP server (only if --mcp flag)<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_step_9_save_manifest_update_cost_54c25428("Step 9 - Save manifest, update cost tra...<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_cluster_only_267d3d83("For --cluster-only<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_watch_6fe8b70a("For --watch<br/><small>skills/graphify/SKILL.md</small>")
+        graphify_skill_for_graphify_add_7475de75("For /graphify add<br/><small>skills/graphify/SKILL.md</small>")
+    end
+    docs_agent_runbook_agent_runbook_242b4755("Agent Runbook<br/><small>docs/agent-runbook.md</small>")
     graphify_skill_graphify_00571124 -->|contains| graphify_skill_what_you_must_do_when_invoked_5af525ab
     graphify_skill_graphify_00571124 -->|contains| graphify_skill_for_update_incremental_re_extract_99047ce2
     graphify_skill_graphify_00571124 -->|contains| graphify_skill_for_cluster_only_267d3d83
@@ -910,7 +912,6 @@ flowchart LR
     graphify_skill_graphify_00571124 -->|contains| graphify_skill_for_graphify_explain_155ff82c
     graphify_skill_graphify_00571124 -->|contains| graphify_skill_for_graphify_add_7475de75
     graphify_skill_graphify_00571124 -->|contains| graphify_skill_for_watch_6fe8b70a
-    graphify_skill_graphify_00571124 -->|contains| graphify_skill_for_git_commit_hook_18a1b5d0
     graphify_skill_graphify_00571124 -->|contains| graphify_skill_for_native_claude_md_integration_2b22d675
     graphify_skill_what_you_must_do_when_invoked_5af525ab -->|contains| graphify_skill_step_2_detect_files_017af156
     graphify_skill_what_you_must_do_when_invoked_5af525ab -->|contains| graphify_skill_step_3_extract_entities_and_relat_7f871a40
@@ -919,7 +920,7 @@ flowchart LR
     graphify_skill_what_you_must_do_when_invoked_5af525ab -->|contains| graphify_skill_step_7d_mcp_server_only_if_mcp_fl_ead4dbd8
     graphify_skill_what_you_must_do_when_invoked_5af525ab -->|contains| graphify_skill_step_9_save_manifest_update_cost_54c25428
     graphify_skill_step_3_extract_entities_and_relat_7f871a40 -->|contains| graphify_skill_part_b_semantic_extraction_parall_4fcd6ef3
-    %% Omitted for readability: 60 nodes, 0 edges
+    %% Omitted for readability: 70 nodes, 0 edges
     class graphify_skill_graphify_00571124 concept;
     class graphify_skill_what_you_must_do_when_invoked_5af525ab concept;
     class graphify_skill_part_b_semantic_extraction_parall_4fcd6ef3 concept;
@@ -937,7 +938,7 @@ flowchart LR
     class graphify_skill_for_cluster_only_267d3d83 concept;
     class graphify_skill_for_watch_6fe8b70a concept;
     class graphify_skill_for_graphify_add_7475de75 concept;
-    class graphify_skill_for_git_commit_hook_18a1b5d0 concept;
+    class docs_agent_runbook_agent_runbook_242b4755 concept;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -1207,11 +1208,12 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>skills/graphify/SKILL.md</code></td><td>78 nodes</td></tr>
+<tr><td><code>docs/agent-runbook.md</code></td><td>10 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x77. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x86. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -2148,7 +2150,7 @@ flowchart LR
   <td>18</td>
   <td><code>kara-kutu.ts</code><br><small style="color:var(--muted)">lib/data/kara-kutu.ts</small></td>
   <td><span class="tag tag-class">Module</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[bolum]/[klasor]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">kara-kutu/[bolum]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[klasor]/[dokuman]/page.tsx</small></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">kara-kutu/[bolum]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[bolum]/[klasor]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[klasor]/[dokuman]/page.tsx</small></td>
   <td><code>Bolum</code><br><small style="color:var(--muted)">lib/types/kara-kutu.ts</small><br><code>kara-kutu.ts</code><br><small style="color:var(--muted)">lib/types/kara-kutu.ts</small><br><code>KKDokuman</code><br><small style="color:var(--muted)">lib/types/kara-kutu.ts</small><br>+1 more</td>
   <td>Module file in lib/data/kara-kutu.ts.</td>
 </tr>
@@ -2156,7 +2158,7 @@ flowchart LR
   <td>19</td>
   <td><code>BOLUMLER</code><br><small style="color:var(--muted)">lib/data/kara-kutu.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[bolum]/[klasor]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">kara-kutu/[bolum]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[klasor]/[dokuman]/page.tsx</small></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">kara-kutu/[bolum]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[bolum]/[klasor]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[klasor]/[dokuman]/page.tsx</small></td>
   <td>No direct outbound edge</td>
   <td>BOLUMLER node in lib/data/kara-kutu.ts.</td>
 </tr>
@@ -2164,7 +2166,7 @@ flowchart LR
   <td>20</td>
   <td><code>MOCK_KLASORLER</code><br><small style="color:var(--muted)">lib/data/kara-kutu.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[bolum]/[klasor]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">kara-kutu/[bolum]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[klasor]/[dokuman]/page.tsx</small></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">kara-kutu/[bolum]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[bolum]/[klasor]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">[klasor]/[dokuman]/page.tsx</small></td>
   <td>No direct outbound edge</td>
   <td>MOCK_KLASORLER node in lib/data/kara-kutu.ts.</td>
 </tr>
@@ -2572,8 +2574,372 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 9. Community 2 ====== -->
-<h2 id="community-2">9. Community 2</h2>
+<!-- ====== 9. Community 17 ====== -->
+<h2 id="community-17">9. Community 17</h2>
+<p>Community 17 groups implementation around app, components, data, dashboard, mostly in _components/dashboard/DashboardSections.tsx, lib/data/dashboard.ts, app/musteriler/page.tsx. This section covers 57 nodes and 93 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Community 17 (57 nodes, 93 edges)
+    subgraph community_17_components_dashboard_DashboardSecti_86e28410["_components/dashboard/DashboardSections.tsx"]
+        app_components_dashboard_dashboardsections_tsx_e76add32("DashboardSections.tsx")
+        dashboard_dashboardsections_getspenddistribution_b83d5c95("getSpendDistribution()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
+        dashboard_dashboardsections_servicebadge_e7b498ac("ServiceBadge()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
+        dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae("formatCurrencyValue()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
+        dashboard_dashboardsections_spenddistributionsec_84489496("SpendDistributionSection()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
+    end
+    subgraph community_17_lib_data_channels_ts_8b982db9["lib/data/channels.ts"]
+        data_channels_getchannelbadgeclass_4b2b5159("getChannelBadgeClass()<br/><small>lib/data/channels.ts</small>")
+        data_channels_getchanneltheme_260ae027("getChannelTheme()<br/><small>lib/data/channels.ts</small>")
+        lib_data_channels_ts_11630425("channels.ts")
+    end
+    subgraph community_17_lib_data_dashboard_ts_74f04002["lib/data/dashboard.ts"]
+        data_dashboard_getdashboardtimerange_dcb9fcaa("getDashboardTimeRange()<br/><small>lib/data/dashboard.ts</small>")
+        lib_data_dashboard_ts_f91441ff("dashboard.ts")
+        data_dashboard_acquisitionstats_03c36de3("acquisitionStats<br/><small>lib/data/dashboard.ts</small>")
+    end
+    subgraph community_17_components_dashboard_DashboardPageC_70766f85["_components/dashboard/DashboardPageClient.tsx"]
+        app_components_dashboard_dashboardpageclient_tsx_1c6bd077("DashboardPageClient.tsx")
+        dashboard_dashboardpageclient_dashboardpageclien_da8f4002("DashboardPageClient()<br/><small>_components/dashboard/DashboardPageClient.tsx</small>")
+    end
+    subgraph community_17_app_musteriler_page_tsx_48884162["app/musteriler/page.tsx"]
+        app_musteriler_page_tsx_7adfbcd0("page.tsx")
+        musteriler_page_platformbadge_cea01209("PlatformBadge()<br/><small>app/musteriler/page.tsx</small>")
+    end
+    common_productui_valuetext_000c01c4("ValueText()<br/><small>_components/common/ProductUI.tsx</small>")
+    app_page_tsx_c74e791a("page.tsx")
+    slug_components_getcustomerserviceclass_033f74bd("getCustomerServiceClass()<br/><small>musteriler/[slug]/components.tsx</small>")
+    musteriler_page_platformbadge_cea01209 -->|calls| data_channels_getchannelbadgeclass_4b2b5159
+    slug_components_getcustomerserviceclass_033f74bd -->|calls| data_channels_getchannelbadgeclass_4b2b5159
+    dashboard_dashboardpageclient_dashboardpageclien_da8f4002 -->|calls| data_dashboard_getdashboardtimerange_dcb9fcaa
+    dashboard_dashboardpageclient_dashboardpageclien_da8f4002 -->|calls| dashboard_dashboardsections_getspenddistribution_b83d5c95
+    dashboard_dashboardsections_servicebadge_e7b498ac -->|calls| data_channels_getchanneltheme_260ae027
+    dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae -->|calls| dashboard_dashboardsections_spenddistributionsec_84489496
+    data_channels_getchanneltheme_260ae027 -->|calls| data_channels_getchannelbadgeclass_4b2b5159
+    app_page_tsx_c74e791a -->|imports| app_components_dashboard_dashboardpageclient_tsx_1c6bd077
+    app_page_tsx_c74e791a -->|imports| dashboard_dashboardpageclient_dashboardpageclien_da8f4002
+    app_musteriler_page_tsx_7adfbcd0 -->|imports| lib_data_channels_ts_11630425
+    app_musteriler_page_tsx_7adfbcd0 -->|imports| data_channels_getchannelbadgeclass_4b2b5159
+    common_productui_valuetext_000c01c4 -->|imports| app_components_dashboard_dashboardsections_tsx_e76add32
+    common_productui_valuetext_000c01c4 -->|imports| app_components_dashboard_dashboardpageclient_tsx_1c6bd077
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| lib_data_dashboard_ts_f91441ff
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_acquisitionstats_03c36de3
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_getdashboardtimerange_dcb9fcaa
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| app_components_dashboard_dashboardsections_tsx_e76add32
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_servicebadge_e7b498ac
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_spenddistributionsec_84489496
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae
+    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_getspenddistribution_b83d5c95
+    app_components_dashboard_dashboardsections_tsx_e76add32 -->|imports| lib_data_channels_ts_11630425
+    app_components_dashboard_dashboardsections_tsx_e76add32 -->|imports| data_channels_getchanneltheme_260ae027
+    app_components_dashboard_dashboardsections_tsx_e76add32 -->|imports| lib_data_dashboard_ts_f91441ff
+    %% Omitted for readability: 39 nodes, 0 edges
+    class app_components_dashboard_dashboardsections_tsx_e76add32 ui;
+    class dashboard_dashboardsections_getspenddistribution_b83d5c95 ui;
+    class dashboard_dashboardsections_servicebadge_e7b498ac ui;
+    class dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae ui;
+    class dashboard_dashboardsections_spenddistributionsec_84489496 ui;
+    class data_channels_getchannelbadgeclass_4b2b5159 function;
+    class data_channels_getchanneltheme_260ae027 function;
+    class lib_data_channels_ts_11630425 module;
+    class data_dashboard_getdashboardtimerange_dcb9fcaa function;
+    class lib_data_dashboard_ts_f91441ff module;
+    class data_dashboard_acquisitionstats_03c36de3 function;
+    class app_components_dashboard_dashboardpageclient_tsx_1c6bd077 entry;
+    class dashboard_dashboardpageclient_dashboardpageclien_da8f4002 entry;
+    class app_musteriler_page_tsx_7adfbcd0 ui;
+    class musteriler_page_platformbadge_cea01209 ui;
+    class common_productui_valuetext_000c01c4 ui;
+    class app_page_tsx_c74e791a ui;
+    class slug_components_getcustomerserviceclass_033f74bd ui;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
+<tr>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>DashboardPageClient()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>Module file in app/page.tsx.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>DashboardPage()</code><br><small style="color:var(--muted)">app/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>channels.ts</code><br><small style="color:var(--muted)">lib/data/channels.ts</small><br><code>getChannelBadgeClass()</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
+  <td>Module file in app/musteriler/page.tsx.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>CustomerStatus</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>CustomerStatus node in app/musteriler/page.tsx.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>CustomerRow</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>CustomerRow node in app/musteriler/page.tsx.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>customers</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>customers node in app/musteriler/page.tsx.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>statuses</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>statuses node in app/musteriler/page.tsx.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>statusToneMap</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>statusToneMap node in app/musteriler/page.tsx.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>PlatformBadge()</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>getChannelBadgeClass()</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
+  <td>PlatformBadge() node in app/musteriler/page.tsx.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>MusterilerPage()</code><br><small style="color:var(--muted)">app/musteriler/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>getCustomerServiceClass()</code><br><small style="color:var(--muted)">musteriler/[slug]/components.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>getChannelBadgeClass()</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
+  <td>getCustomerServiceClass() node in musteriler/[slug]/components.tsx.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>ValueText()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>DashboardSections.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td>ValueText() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td><span class="tag tag-cmd">Entry</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/page.tsx</small><br><code>ValueText()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><code>acquisitionStats</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>AlertItem</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>attentionItems</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br>+19 more</td>
+  <td>Module file in _components/dashboard/DashboardPageClient.tsx.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>getChannelDecision()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>getChannelDecision() node in _components/dashboard/DashboardPageClient.tsx.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>getAttentionAction()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>getAttentionAction() node in _components/dashboard/DashboardPageClient.tsx.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>DashboardPageClient()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td><span class="tag tag-cmd">Entry</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/page.tsx</small></td>
+  <td><code>getDashboardTimeRange()</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>getSpendDistribution()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>DashboardSections.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>ValueText()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><code>channels.ts</code><br><small style="color:var(--muted)">lib/data/channels.ts</small><br><code>ChannelSummary</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>dashboard.ts</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br>+6 more</td>
+  <td>Module file in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>card</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>card node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>sectionTitle</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>sectionTitle node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>numericText</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>numericText node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>getToneStyle()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>getToneStyle() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>Sparkline()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Sparkline() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>RollingCurrencyValue()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>RollingCurrencyValue() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>StatCard()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>StatCard() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>TrendChart()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>TrendChart() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>ChannelSparkline()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>ChannelSparkline() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>ServiceBadge()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td><code>getChannelTheme()</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
+  <td>ServiceBadge() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>parseCurrencyValue()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>parseCurrencyValue() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>formatCurrencyValue()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td><code>SpendDistributionSection()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td>formatCurrencyValue() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td><code>getSpendDistribution()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>DashboardPageClient()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>getSpendDistribution() node in _components/dashboard/DashboardSections.tsx.</td>
+</tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>_components/dashboard/DashboardSections.tsx</code></td><td>18 nodes</td></tr>
+<tr><td><code>lib/data/dashboard.ts</code></td><td>17 nodes</td></tr>
+<tr><td><code>app/musteriler/page.tsx</code></td><td>8 nodes</td></tr>
+<tr><td><code>lib/data/channels.ts</code></td><td>6 nodes</td></tr>
+<tr><td><code>_components/dashboard/DashboardPageClient.tsx</code></td><td>4 nodes</td></tr>
+<tr><td><code>app/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>_components/common/ProductUI.tsx</code></td><td>1 nodes</td></tr>
+<tr><td><code>musteriler/[slug]/components.tsx</code></td><td>1 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x49, imports x31, calls x7, imports x6. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 10. Community 2 ====== -->
+<h2 id="community-2">10. Community 2</h2>
 <p>Community 2 groups implementation around app, meta, metaadsviewtsx, components, mostly in _components/meta-ads/MetaAdsView.tsx, musteriler/[slug]/MetaTab.tsx, ajans/meta/page.tsx. This section covers 49 nodes and 55 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -2710,7 +3076,7 @@ flowchart LR
   <td>8</td>
   <td><code>MetaAdsView.tsx</code><br><small style="color:var(--muted)">_components/meta-ads/MetaAdsView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>MetaTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/MetaTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/meta/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/meta/page.tsx</small></td>
+  <td><code>MetaTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/MetaTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/meta/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/meta/page.tsx</small></td>
   <td>No direct outbound edge</td>
   <td>Module file in _components/meta-ads/MetaAdsView.tsx.</td>
 </tr>
@@ -2910,8 +3276,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 10. Community 4 ====== -->
-<h2 id="community-4">10. Community 4</h2>
+<!-- ====== 11. Community 4 ====== -->
+<h2 id="community-4">11. Community 4</h2>
 <p>Community 4 groups implementation around app, tiktok, tiktokadsviewtsx, components, mostly in _components/tiktok-ads/TikTokAdsView.tsx, musteriler/[slug]/TikTokTab.tsx, ajans/tiktok/page.tsx. This section covers 47 nodes and 54 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3245,362 +3611,6 @@ flowchart LR
   <div class="card">
     <h4>Design Notes</h4>
     <p>This section comes from graphify community clustering. Relationship summary: contains x43, imports x6, imports x3, calls x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
-<!-- ====== 11. Community 17 ====== -->
-<h2 id="community-17">11. Community 17</h2>
-<p>Community 17 groups implementation around app, components, dashboard, data, mostly in _components/dashboard/DashboardSections.tsx, lib/data/dashboard.ts, lib/data/channels.ts. This section covers 46 nodes and 78 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Community 17 (46 nodes, 78 edges)
-    subgraph community_17_lib_data_dashboard_ts_74f04002["lib/data/dashboard.ts"]
-        data_dashboard_getdashboardtimerange_dcb9fcaa("getDashboardTimeRange()<br/><small>lib/data/dashboard.ts</small>")
-        lib_data_dashboard_ts_f91441ff("dashboard.ts")
-        data_dashboard_acquisitionstats_03c36de3("acquisitionStats<br/><small>lib/data/dashboard.ts</small>")
-        data_dashboard_attentionitems_4eca3240("attentionItems<br/><small>lib/data/dashboard.ts</small>")
-        data_dashboard_customerrows_0019ec73("customerRows<br/><small>lib/data/dashboard.ts</small>")
-        data_dashboard_pipelinestages_964b8f51("pipelineStages<br/><small>lib/data/dashboard.ts</small>")
-        data_dashboard_upcomingtasks_d3be0f3d("upcomingTasks<br/><small>lib/data/dashboard.ts</small>")
-        data_dashboard_alertitem_e8927e70("AlertItem<br/><small>lib/data/dashboard.ts</small>")
-        data_dashboard_channelsummary_b594a87b("ChannelSummary<br/><small>lib/data/dashboard.ts</small>")
-    end
-    subgraph community_17_components_dashboard_DashboardSecti_86e28410["_components/dashboard/DashboardSections.tsx"]
-        app_components_dashboard_dashboardsections_tsx_e76add32("DashboardSections.tsx")
-        dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae("formatCurrencyValue()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
-        dashboard_dashboardsections_servicebadge_e7b498ac("ServiceBadge()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
-        dashboard_dashboardsections_getspenddistribution_b83d5c95("getSpendDistribution()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
-        dashboard_dashboardsections_spenddistributionsec_84489496("SpendDistributionSection()<br/><small>_components/dashboard/DashboardSections.tsx</small>")
-    end
-    subgraph community_17_components_dashboard_DashboardPageC_70766f85["_components/dashboard/DashboardPageClient.tsx"]
-        app_components_dashboard_dashboardpageclient_tsx_1c6bd077("DashboardPageClient.tsx")
-        dashboard_dashboardpageclient_dashboardpageclien_da8f4002("DashboardPageClient()<br/><small>_components/dashboard/DashboardPageClient.tsx</small>")
-    end
-    app_page_tsx_c74e791a("page.tsx")
-    data_channels_getchanneltheme_260ae027("getChannelTheme()<br/><small>lib/data/channels.ts</small>")
-    dashboard_dashboardpageclient_dashboardpageclien_da8f4002 -->|calls| data_dashboard_getdashboardtimerange_dcb9fcaa
-    dashboard_dashboardpageclient_dashboardpageclien_da8f4002 -->|calls| dashboard_dashboardsections_getspenddistribution_b83d5c95
-    dashboard_dashboardsections_servicebadge_e7b498ac -->|calls| data_channels_getchanneltheme_260ae027
-    dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae -->|calls| dashboard_dashboardsections_spenddistributionsec_84489496
-    app_page_tsx_c74e791a -->|imports| app_components_dashboard_dashboardpageclient_tsx_1c6bd077
-    app_page_tsx_c74e791a -->|imports| dashboard_dashboardpageclient_dashboardpageclien_da8f4002
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| lib_data_dashboard_ts_f91441ff
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_acquisitionstats_03c36de3
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_attentionitems_4eca3240
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_customerrows_0019ec73
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_getdashboardtimerange_dcb9fcaa
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_pipelinestages_964b8f51
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_upcomingtasks_d3be0f3d
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_alertitem_e8927e70
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| data_dashboard_channelsummary_b594a87b
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| app_components_dashboard_dashboardsections_tsx_e76add32
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_servicebadge_e7b498ac
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_spenddistributionsec_84489496
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae
-    app_components_dashboard_dashboardpageclient_tsx_1c6bd077 -->|imports| dashboard_dashboardsections_getspenddistribution_b83d5c95
-    app_components_dashboard_dashboardsections_tsx_e76add32 -->|imports| data_channels_getchanneltheme_260ae027
-    app_components_dashboard_dashboardsections_tsx_e76add32 -->|imports| lib_data_dashboard_ts_f91441ff
-    app_components_dashboard_dashboardsections_tsx_e76add32 -->|imports| data_dashboard_channelsummary_b594a87b
-    %% Omitted for readability: 28 nodes, 0 edges
-    class data_dashboard_getdashboardtimerange_dcb9fcaa function;
-    class lib_data_dashboard_ts_f91441ff module;
-    class data_dashboard_acquisitionstats_03c36de3 function;
-    class data_dashboard_attentionitems_4eca3240 function;
-    class data_dashboard_customerrows_0019ec73 function;
-    class data_dashboard_pipelinestages_964b8f51 function;
-    class data_dashboard_upcomingtasks_d3be0f3d function;
-    class data_dashboard_alertitem_e8927e70 klass;
-    class data_dashboard_channelsummary_b594a87b klass;
-    class app_components_dashboard_dashboardsections_tsx_e76add32 ui;
-    class dashboard_dashboardsections_formatcurrencyvalue_6b9c95ae ui;
-    class dashboard_dashboardsections_servicebadge_e7b498ac ui;
-    class dashboard_dashboardsections_getspenddistribution_b83d5c95 ui;
-    class dashboard_dashboardsections_spenddistributionsec_84489496 ui;
-    class app_components_dashboard_dashboardpageclient_tsx_1c6bd077 entry;
-    class dashboard_dashboardpageclient_dashboardpageclien_da8f4002 entry;
-    class app_page_tsx_c74e791a ui;
-    class data_channels_getchanneltheme_260ae027 function;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
-<tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>DashboardPageClient()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>Module file in app/page.tsx.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td><code>DashboardPage()</code><br><small style="color:var(--muted)">app/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Organizes documentation pages, navigation, or content lookup.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/page.tsx</small></td>
-  <td><code>acquisitionStats</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>AlertItem</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>attentionItems</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br>+19 more</td>
-  <td>Module file in _components/dashboard/DashboardPageClient.tsx.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>getChannelDecision()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>getChannelDecision() node in _components/dashboard/DashboardPageClient.tsx.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>getAttentionAction()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>getAttentionAction() node in _components/dashboard/DashboardPageClient.tsx.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>DashboardPageClient()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/page.tsx</small></td>
-  <td><code>getDashboardTimeRange()</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>getSpendDistribution()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td>Organizes documentation pages, navigation, or content lookup.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>DashboardSections.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td><code>channels.ts</code><br><small style="color:var(--muted)">lib/data/channels.ts</small><br><code>ChannelSummary</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>dashboard.ts</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br>+6 more</td>
-  <td>Module file in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>card</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>card node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>sectionTitle</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>sectionTitle node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>numericText</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>numericText node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>getToneStyle()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>getToneStyle() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>Sparkline()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Sparkline() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>RollingCurrencyValue()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>RollingCurrencyValue() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>StatCard()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>StatCard() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>TrendChart()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>TrendChart() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>ChannelSparkline()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>ChannelSparkline() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>ServiceBadge()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td><code>getChannelTheme()</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
-  <td>ServiceBadge() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>parseCurrencyValue()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>parseCurrencyValue() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>formatCurrencyValue()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td><code>SpendDistributionSection()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td>formatCurrencyValue() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>getSpendDistribution()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>getSpendDistribution() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>getSpendDistributionGradient()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>getSpendDistributionGradient() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>getDonutColor()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>getDonutColor() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>SpendDistributionSection()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>formatCurrencyValue()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>SpendDistributionSection() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>24</td>
-  <td><code>SectionHeader()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>SectionHeader() node in _components/dashboard/DashboardSections.tsx.</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>channels.ts</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
-  <td><span class="tag tag-class">Module</span></td>
-  <td><code>DashboardSections.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>Module file in lib/data/channels.ts.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>ChannelTheme</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>ChannelTheme node in lib/data/channels.ts.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>defaultChannelTheme</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>defaultChannelTheme node in lib/data/channels.ts.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>channelThemes</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>channelThemes node in lib/data/channels.ts.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>getChannelTheme()</code><br><small style="color:var(--muted)">lib/data/channels.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardSections.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small><br><code>ServiceBadge()</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>getChannelTheme() node in lib/data/channels.ts.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>dashboard.ts</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small></td>
-  <td><span class="tag tag-class">Module</span></td>
-  <td><code>DashboardPageClient.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardPageClient.tsx</small><br><code>DashboardSections.tsx</code><br><small style="color:var(--muted)">_components/dashboard/DashboardSections.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>Module file in lib/data/dashboard.ts.</td>
-</tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>_components/dashboard/DashboardSections.tsx</code></td><td>18 nodes</td></tr>
-<tr><td><code>lib/data/dashboard.ts</code></td><td>17 nodes</td></tr>
-<tr><td><code>lib/data/channels.ts</code></td><td>5 nodes</td></tr>
-<tr><td><code>_components/dashboard/DashboardPageClient.tsx</code></td><td>4 nodes</td></tr>
-<tr><td><code>app/page.tsx</code></td><td>2 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x41, imports x28, imports x5, calls x4. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4085,7 +4095,7 @@ flowchart LR
   <td>7</td>
   <td><code>data.ts</code><br><small style="color:var(--muted)">_components/funnel/data.ts</small></td>
   <td><span class="tag tag-class">Module</span></td>
-  <td><code>FunnelTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/FunnelTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/funnel/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/funnel/page.tsx</small></td>
+  <td><code>FunnelTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/FunnelTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/funnel/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/funnel/page.tsx</small></td>
   <td><code>FunnelView.tsx</code><br><small style="color:var(--muted)">_components/funnel/FunnelView.tsx</small><br><code>FunnelViewData</code><br><small style="color:var(--muted)">_components/funnel/FunnelView.tsx</small></td>
   <td>Module file in _components/funnel/data.ts.</td>
 </tr>
@@ -4133,7 +4143,7 @@ flowchart LR
   <td>13</td>
   <td><code>agencyFunnelData</code><br><small style="color:var(--muted)">_components/funnel/data.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">ajans/funnel/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/funnel/page.tsx</small></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">atolye/funnel/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/funnel/page.tsx</small></td>
   <td>No direct outbound edge</td>
   <td>agencyFunnelData node in _components/funnel/data.ts.</td>
 </tr>
@@ -4149,7 +4159,7 @@ flowchart LR
   <td>15</td>
   <td><code>FunnelView.tsx</code><br><small style="color:var(--muted)">_components/funnel/FunnelView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>data.ts</code><br><small style="color:var(--muted)">_components/funnel/data.ts</small><br><code>FunnelTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/FunnelTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/funnel/page.tsx</small><br>+1 more</td>
+  <td><code>data.ts</code><br><small style="color:var(--muted)">_components/funnel/data.ts</small><br><code>FunnelTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/FunnelTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/funnel/page.tsx</small><br>+1 more</td>
   <td>No direct outbound edge</td>
   <td>Module file in _components/funnel/FunnelView.tsx.</td>
 </tr>
@@ -4432,7 +4442,7 @@ flowchart LR
   <td>8</td>
   <td><code>MailMarketingView.tsx</code><br><small style="color:var(--muted)">_components/mail-marketing/MailMarketingView.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>MailTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/MailTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/mail/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/mail/page.tsx</small></td>
+  <td><code>MailTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/MailTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">atolye/mail/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ajans/mail/page.tsx</small></td>
   <td>No direct outbound edge</td>
   <td>Module file in _components/mail-marketing/MailMarketingView.tsx.</td>
 </tr>
@@ -4632,433 +4642,74 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 15. Community 14 ====== -->
-<h2 id="community-14">15. Community 14</h2>
-<p>Community 14 groups implementation around components, app, workspace, appnavigationtsx, mostly in components/AppNavigation.tsx, app/layout.tsx, _components/workspace/WorkspaceProvider.tsx. This section covers 43 nodes and 64 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<!-- ====== 15. Community 11 ====== -->
+<h2 id="community-11">15. Community 11</h2>
+<p>Community 11 groups implementation around app, ekip, pagetsx, ekipdepartmentpagetsx, mostly in app/ekip/EkipDepartmentPage.tsx, app/ekip/page.tsx, ekip/arge/page.tsx. This section covers 32 nodes and 44 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Community 14 (43 nodes, 64 edges)
-    subgraph community_14_components_AppNavigation_tsx_b25f296b["components/AppNavigation.tsx"]
-        components_appnavigation_appnavigation_5aaffa0b("AppNavigation()<br/><small>components/AppNavigation.tsx</small>")
-        components_appnavigation_isactive_7c957490("isActive()<br/><small>components/AppNavigation.tsx</small>")
-        components_appnavigation_navlink_7f36130d("NavLink()<br/><small>components/AppNavigation.tsx</small>")
-        components_appnavigation_tsx_afa3faf8("AppNavigation.tsx")
-    end
-    subgraph community_14_components_workspace_WorkspaceProvi_22c4dbe4["_components/workspace/WorkspaceProvider.tsx"]
-        app_components_workspace_workspaceprovider_tsx_ae1977e0("WorkspaceProvider.tsx")
-        workspace_workspaceprovider_useworkspace_2f67cde8("useWorkspace()<br/><small>_components/workspace/WorkspaceProvider.tsx</small>")
-        workspace_workspaceprovider_workspaceprovider_0cf894ed("WorkspaceProvider()<br/><small>_components/workspace/WorkspaceProvider.tsx</small>")
-    end
-    subgraph community_14_lib_workspace_data_ts_a73bfe14["lib/workspace/data.ts"]
-        lib_workspace_data_ts_25e0199a("data.ts")
-        workspace_data_getworkspacebyid_c33d0ae4("getWorkspaceById()<br/><small>lib/workspace/data.ts</small>")
-        workspace_data_workspaces_671e0be8("workspaces<br/><small>lib/workspace/data.ts</small>")
-    end
-    subgraph community_14_components_workspace_WorkspaceSwitc_4e2c5764["_components/workspace/WorkspaceSwitcher.tsx"]
-        app_components_workspace_workspaceswitcher_tsx_777c477f("WorkspaceSwitcher.tsx")
-        workspace_workspaceswitcher_workspaceswitcher_915b87d2("WorkspaceSwitcher()<br/><small>_components/workspace/WorkspaceSwitcher.tsx</small>")
-    end
-    subgraph community_14_app_AppShell_tsx_2de1ac9d["app/AppShell.tsx"]
-        app_appshell_tsx_f085f7c0("AppShell.tsx")
-        app_appshell_appshell_6dbbb3f4("AppShell()<br/><small>app/AppShell.tsx</small>")
-    end
-    subgraph community_14_lib_workspace_labels_ts_d2f53705["lib/workspace/labels.ts"]
-        workspace_labels_getworkspacelabels_2fd66002("getWorkspaceLabels()<br/><small>lib/workspace/labels.ts</small>")
-        lib_workspace_labels_ts_e411d5c7("labels.ts")
-    end
-    pusula_plan_pusulaplanprovider_pusulaplanprovide_74862e42("PusulaPlanProvider()<br/><small>_components/pusula-plan/PusulaPlanProvider.tsx</small>")
-    app_layout_tsx_7aa0d63a("layout.tsx")
-    workspace_workspaceprovider_useworkspace_2f67cde8 -->|calls| workspace_workspaceswitcher_workspaceswitcher_915b87d2
-    workspace_workspaceprovider_useworkspace_2f67cde8 -->|calls| components_appnavigation_appnavigation_5aaffa0b
-    workspace_workspaceswitcher_workspaceswitcher_915b87d2 -->|calls| workspace_labels_getworkspacelabels_2fd66002
-    components_appnavigation_isactive_7c957490 -->|calls| components_appnavigation_navlink_7f36130d
-    app_appshell_tsx_f085f7c0 -->|imports| components_appnavigation_tsx_afa3faf8
-    app_appshell_tsx_f085f7c0 -->|imports| components_appnavigation_appnavigation_5aaffa0b
-    app_appshell_tsx_f085f7c0 -->|imports| pusula_plan_pusulaplanprovider_pusulaplanprovide_74862e42
-    app_appshell_tsx_f085f7c0 -->|imports| app_components_workspace_workspaceprovider_tsx_ae1977e0
-    app_appshell_tsx_f085f7c0 -->|imports| workspace_workspaceprovider_workspaceprovider_0cf894ed
-    app_appshell_tsx_f085f7c0 -->|imports| app_layout_tsx_7aa0d63a
-    app_appshell_appshell_6dbbb3f4 -->|imports| app_layout_tsx_7aa0d63a
-    app_components_workspace_workspaceprovider_tsx_ae1977e0 -->|imports| lib_workspace_data_ts_25e0199a
-    app_components_workspace_workspaceprovider_tsx_ae1977e0 -->|imports| workspace_data_getworkspacebyid_c33d0ae4
-    app_components_workspace_workspaceprovider_tsx_ae1977e0 -->|imports| workspace_data_workspaces_671e0be8
-    app_components_workspace_workspaceprovider_tsx_ae1977e0 -->|imports| lib_workspace_labels_ts_e411d5c7
-    app_components_workspace_workspaceprovider_tsx_ae1977e0 -->|imports| workspace_labels_getworkspacelabels_2fd66002
-    app_components_workspace_workspaceprovider_tsx_ae1977e0 -->|imports| app_components_workspace_workspaceswitcher_tsx_777c477f
-    app_components_workspace_workspaceprovider_tsx_ae1977e0 -->|imports| components_appnavigation_tsx_afa3faf8
-    workspace_workspaceprovider_useworkspace_2f67cde8 -->|imports| app_components_workspace_workspaceswitcher_tsx_777c477f
-    workspace_workspaceprovider_useworkspace_2f67cde8 -->|imports| components_appnavigation_tsx_afa3faf8
-    app_components_workspace_workspaceswitcher_tsx_777c477f -->|imports| lib_workspace_labels_ts_e411d5c7
-    app_components_workspace_workspaceswitcher_tsx_777c477f -->|imports| workspace_labels_getworkspacelabels_2fd66002
-    app_components_workspace_workspaceswitcher_tsx_777c477f -->|imports| components_appnavigation_tsx_afa3faf8
-    workspace_workspaceswitcher_workspaceswitcher_915b87d2 -->|imports| components_appnavigation_tsx_afa3faf8
-    %% Omitted for readability: 25 nodes, 0 edges
-    class components_appnavigation_appnavigation_5aaffa0b ui;
-    class components_appnavigation_isactive_7c957490 ui;
-    class components_appnavigation_navlink_7f36130d ui;
-    class components_appnavigation_tsx_afa3faf8 ui;
-    class app_components_workspace_workspaceprovider_tsx_ae1977e0 ui;
-    class workspace_workspaceprovider_useworkspace_2f67cde8 ui;
-    class workspace_workspaceprovider_workspaceprovider_0cf894ed ui;
-    class lib_workspace_data_ts_25e0199a module;
-    class workspace_data_getworkspacebyid_c33d0ae4 function;
-    class workspace_data_workspaces_671e0be8 function;
-    class app_components_workspace_workspaceswitcher_tsx_777c477f ui;
-    class workspace_workspaceswitcher_workspaceswitcher_915b87d2 ui;
-    class app_appshell_tsx_f085f7c0 ui;
-    class app_appshell_appshell_6dbbb3f4 ui;
-    class workspace_labels_getworkspacelabels_2fd66002 function;
-    class lib_workspace_labels_ts_e411d5c7 module;
-    class pusula_plan_pusulaplanprovider_pusulaplanprovide_74862e42 ui;
-    class app_layout_tsx_7aa0d63a ui;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
-<tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td><code>AppShell.tsx</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>AppNavigation()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>AppNavigation.tsx</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>layout.tsx</code><br><small style="color:var(--muted)">app/layout.tsx</small><br>+3 more</td>
-  <td>Module file in app/AppShell.tsx.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td><code>AppShell()</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>layout.tsx</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td>AppShell() node in app/AppShell.tsx.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><code>layout.tsx</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>AppShell()</code><br><small style="color:var(--muted)">app/AppShell.tsx</small><br><code>AppShell.tsx</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>Module file in app/layout.tsx.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>archivo</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>archivo node in app/layout.tsx.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>geist</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>geist node in app/layout.tsx.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>sora</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>sora node in app/layout.tsx.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>dmSans</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>dmSans node in app/layout.tsx.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>metadata</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>metadata node in app/layout.tsx.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>RootLayout()</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>RootLayout() node in app/layout.tsx.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>PusulaPlanProvider()</code><br><small style="color:var(--muted)">_components/pusula-plan/PusulaPlanProvider.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>AppShell.tsx</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>PusulaPlanProvider() node in _components/pusula-plan/PusulaPlanProvider.tsx.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>WorkspaceProvider.tsx</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>AppShell.tsx</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
-  <td><code>AppNavigation.tsx</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>data.ts</code><br><small style="color:var(--muted)">lib/workspace/data.ts</small><br><code>getWorkspaceById()</code><br><small style="color:var(--muted)">lib/workspace/data.ts</small><br>+6 more</td>
-  <td>Module file in _components/workspace/WorkspaceProvider.tsx.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>WorkspaceContextValue</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>WorkspaceContextValue node in _components/workspace/WorkspaceProvider.tsx.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>WorkspaceContext</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>WorkspaceContext node in _components/workspace/WorkspaceProvider.tsx.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>WorkspaceProvider()</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>AppShell.tsx</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>WorkspaceProvider() node in _components/workspace/WorkspaceProvider.tsx.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>useWorkspace()</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>AppNavigation()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>AppNavigation.tsx</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>WorkspaceSwitcher()</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceSwitcher.tsx</small><br>+1 more</td>
-  <td>useWorkspace() node in _components/workspace/WorkspaceProvider.tsx.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>WorkspaceSwitcher.tsx</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceSwitcher.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>useWorkspace()</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small><br><code>WorkspaceProvider.tsx</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small></td>
-  <td><code>AppNavigation.tsx</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>getWorkspaceLabels()</code><br><small style="color:var(--muted)">lib/workspace/labels.ts</small><br><code>labels.ts</code><br><small style="color:var(--muted)">lib/workspace/labels.ts</small></td>
-  <td>Module file in _components/workspace/WorkspaceSwitcher.tsx.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>WorkspaceSwitcher()</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceSwitcher.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>useWorkspace()</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small></td>
-  <td><code>AppNavigation.tsx</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>getWorkspaceLabels()</code><br><small style="color:var(--muted)">lib/workspace/labels.ts</small></td>
-  <td>WorkspaceSwitcher() node in _components/workspace/WorkspaceSwitcher.tsx.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>AppNavigation.tsx</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>AppShell.tsx</code><br><small style="color:var(--muted)">app/AppShell.tsx</small><br><code>useWorkspace()</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small><br><code>WorkspaceProvider.tsx</code><br><small style="color:var(--muted)">_components/workspace/WorkspaceProvider.tsx</small><br>+2 more</td>
-  <td><code>TimeRange</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small><br><code>timeRanges</code><br><small style="color:var(--muted)">lib/data/dashboard.ts</small></td>
-  <td>Module file in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>NavIcon</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>NavIcon node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>NavItem</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>NavItem node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>NavSeparator</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>NavSeparator node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>NavEntry</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>NavEntry node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>ProfileMenuItem</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>ProfileMenuItem node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>24</td>
-  <td><code>mainItems</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>mainItems node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>pageMeta</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Organizes documentation pages, navigation, or content lookup.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>notificationItems</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>notificationItems node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>getNotificationTone()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>getNotificationTone() node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>isActive()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>NavLink()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td>isActive() node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>NavLink()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>isActive()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>NavLink() node in components/AppNavigation.tsx.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>NotificationCenterButton()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>NotificationCenterButton() node in components/AppNavigation.tsx.</td>
-</tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>components/AppNavigation.tsx</code></td><td>15 nodes</td></tr>
-<tr><td><code>app/layout.tsx</code></td><td>7 nodes</td></tr>
-<tr><td><code>_components/workspace/WorkspaceProvider.tsx</code></td><td>5 nodes</td></tr>
-<tr><td><code>lib/workspace/data.ts</code></td><td>3 nodes</td></tr>
-<tr><td><code>lib/workspace/labels.ts</code></td><td>3 nodes</td></tr>
-<tr><td><code>lib/workspace/types.ts</code></td><td>3 nodes</td></tr>
-<tr><td><code>app/AppShell.tsx</code></td><td>2 nodes</td></tr>
-<tr><td><code>_components/workspace/WorkspaceSwitcher.tsx</code></td><td>2 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x32, imports x16, imports x12, calls x4. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
-<!-- ====== 16. Other ====== -->
-<h2 id="other">16. Other</h2>
-<p>Other groups implementation around app, pagetsx, departmanlar, musteriler, mostly in musteriler/[slug]/data.ts, app/ajans/page.tsx, _components/channel-dashboard/ChannelDashboardView.tsx. This section covers 451 nodes and 646 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Other (451 nodes, 646 edges)
-    subgraph other_app_ekip_EkipDepartmentPage_tsx_e18d4313["app/ekip/EkipDepartmentPage.tsx"]
+    %% Section: Community 11 (32 nodes, 44 edges)
+    subgraph community_11_app_ekip_EkipDepartmentPage_tsx_85121ef4["app/ekip/EkipDepartmentPage.tsx"]
         app_ekip_ekipdepartmentpage_tsx_1d63e89c("EkipDepartmentPage.tsx")
         ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978("EkipDepartmentPage()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
-        ekip_ekipdepartmentpage_healthtone_30f0f789("healthTone()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
         ekip_ekipdepartmentpage_geteditorialtoneclassnam_246e4dea("getEditorialToneClassName()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
+        ekip_ekipdepartmentpage_healthtone_30f0f789("healthTone()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
         ekip_ekipdepartmentpage_editorialmetriccard_5745ff5f("EditorialMetricCard()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
         ekip_ekipdepartmentpage_editorialmembercard_688f19bd("EditorialMemberCard()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
         ekip_ekipdepartmentpage_editorialtaskcard_c5fd3e4d("EditorialTaskCard()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
         ekip_ekipdepartmentpage_editorialekipdepartmentp_44e50423("EditorialEkipDepartmentPage()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
+        ekip_ekipdepartmentpage_departmentconfig_96058111("DepartmentConfig<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
+        ekip_ekipdepartmentpage_editorialdock_b95a47d9("EditorialDock()<br/><small>app/ekip/EkipDepartmentPage.tsx</small>")
     end
-    subgraph other_musteriler_crm_CrmPageClient_tsx_2043772e["musteriler/crm/CrmPageClient.tsx"]
-        app_musteriler_crm_crmpageclient_tsx_c377e8ed("CrmPageClient.tsx")
-        crm_crmpageclient_crmpageclient_0d010996("CrmPageClient()<br/><small>musteriler/crm/CrmPageClient.tsx</small>")
-    end
-    common_productui_gettintclassname_b4fd9bc7("getTintClassName()<br/><small>_components/common/ProductUI.tsx</small>")
-    app_ajans_agencytabs_tsx_d7584e76("AgencyTabs.tsx")
-    app_ajans_page_tsx_948539fc("page.tsx")
-    musteriler_page_platformbadge_cea01209("PlatformBadge()<br/><small>app/musteriler/page.tsx</small>")
-    finans_page_moneyline_4fc5d237("MoneyLine()<br/><small>departmanlar/finans/page.tsx</small>")
-    pazarlama_page_minimetric_0a3de1dd("MiniMetric()<br/><small>departmanlar/pazarlama/page.tsx</small>")
-    data_channels_getchannelbadgeclass_4b2b5159("getChannelBadgeClass()<br/><small>lib/data/channels.ts</small>")
-    app_musteriler_slug_generaltab_tsx_def3d88d("GeneralTab.tsx")
-    finans_page_moneyline_4fc5d237 -->|calls| common_productui_gettintclassname_b4fd9bc7
-    pazarlama_page_minimetric_0a3de1dd -->|calls| common_productui_gettintclassname_b4fd9bc7
+    app_ekip_page_tsx_779b4be5("page.tsx")
+    app_ekip_arge_page_tsx_58adbcc9("page.tsx")
+    app_ekip_finans_page_tsx_b99f650f("page.tsx")
+    app_ekip_ik_page_tsx_9bd52f4a("page.tsx")
+    app_ekip_operasyon_page_tsx_eb6a00e0("page.tsx")
+    app_ekip_pazarlama_page_tsx_ca3b5c0f("page.tsx")
+    app_ekip_satis_page_tsx_4b3deec9("page.tsx")
+    app_ekip_yonetim_page_tsx_0fd15314("page.tsx")
     ekip_ekipdepartmentpage_healthtone_30f0f789 -->|calls| ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978
     ekip_ekipdepartmentpage_geteditorialtoneclassnam_246e4dea -->|calls| ekip_ekipdepartmentpage_editorialmetriccard_5745ff5f
     ekip_ekipdepartmentpage_geteditorialtoneclassnam_246e4dea -->|calls| ekip_ekipdepartmentpage_editorialmembercard_688f19bd
     ekip_ekipdepartmentpage_geteditorialtoneclassnam_246e4dea -->|calls| ekip_ekipdepartmentpage_editorialtaskcard_c5fd3e4d
     ekip_ekipdepartmentpage_geteditorialtoneclassnam_246e4dea -->|calls| ekip_ekipdepartmentpage_editorialekipdepartmentp_44e50423
-    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|calls| common_productui_gettintclassname_b4fd9bc7
-    musteriler_page_platformbadge_cea01209 -->|calls| data_channels_getchannelbadgeclass_4b2b5159
-    app_ajans_page_tsx_948539fc -->|imports| common_productui_gettintclassname_b4fd9bc7
-    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| common_productui_gettintclassname_b4fd9bc7
-    app_musteriler_slug_generaltab_tsx_def3d88d -->|imports| common_productui_gettintclassname_b4fd9bc7
-    %% Omitted for readability: 433 nodes, 0 edges
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_page_tsx_779b4be5
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_arge_page_tsx_58adbcc9
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_finans_page_tsx_b99f650f
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_ik_page_tsx_9bd52f4a
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_operasyon_page_tsx_eb6a00e0
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_pazarlama_page_tsx_ca3b5c0f
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_satis_page_tsx_4b3deec9
+    app_ekip_ekipdepartmentpage_tsx_1d63e89c -->|imports| app_ekip_yonetim_page_tsx_0fd15314
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_page_tsx_779b4be5
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_arge_page_tsx_58adbcc9
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_finans_page_tsx_b99f650f
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_ik_page_tsx_9bd52f4a
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_operasyon_page_tsx_eb6a00e0
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_pazarlama_page_tsx_ca3b5c0f
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_satis_page_tsx_4b3deec9
+    ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 -->|imports| app_ekip_yonetim_page_tsx_0fd15314
+    %% Omitted for readability: 14 nodes, 0 edges
     class app_ekip_ekipdepartmentpage_tsx_1d63e89c ui;
     class ekip_ekipdepartmentpage_ekipdepartmentpage_c21e6978 ui;
-    class ekip_ekipdepartmentpage_healthtone_30f0f789 ui;
     class ekip_ekipdepartmentpage_geteditorialtoneclassnam_246e4dea ui;
+    class ekip_ekipdepartmentpage_healthtone_30f0f789 ui;
     class ekip_ekipdepartmentpage_editorialmetriccard_5745ff5f ui;
     class ekip_ekipdepartmentpage_editorialmembercard_688f19bd ui;
     class ekip_ekipdepartmentpage_editorialtaskcard_c5fd3e4d ui;
     class ekip_ekipdepartmentpage_editorialekipdepartmentp_44e50423 ui;
-    class app_musteriler_crm_crmpageclient_tsx_c377e8ed entry;
-    class crm_crmpageclient_crmpageclient_0d010996 entry;
-    class common_productui_gettintclassname_b4fd9bc7 ui;
-    class app_ajans_agencytabs_tsx_d7584e76 ui;
-    class app_ajans_page_tsx_948539fc ui;
-    class musteriler_page_platformbadge_cea01209 ui;
-    class finans_page_moneyline_4fc5d237 ui;
-    class pazarlama_page_minimetric_0a3de1dd ui;
-    class data_channels_getchannelbadgeclass_4b2b5159 function;
-    class app_musteriler_slug_generaltab_tsx_def3d88d ui;
+    class ekip_ekipdepartmentpage_departmentconfig_96058111 ui;
+    class ekip_ekipdepartmentpage_editorialdock_b95a47d9 ui;
+    class app_ekip_page_tsx_779b4be5 ui;
+    class app_ekip_arge_page_tsx_58adbcc9 ui;
+    class app_ekip_finans_page_tsx_b99f650f ui;
+    class app_ekip_ik_page_tsx_9bd52f4a ui;
+    class app_ekip_operasyon_page_tsx_eb6a00e0 ui;
+    class app_ekip_pazarlama_page_tsx_ca3b5c0f ui;
+    class app_ekip_satis_page_tsx_4b3deec9 ui;
+    class app_ekip_yonetim_page_tsx_0fd15314 ui;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -5085,7 +4736,7 @@ flowchart LR
   <td><code>EkipDepartmentPage.tsx</code><br><small style="color:var(--muted)">app/ekip/EkipDepartmentPage.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>getTintClassName()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>index.ts</code><br><small style="color:var(--muted)">_components/common/index.ts</small><br><code>KpiCard()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br>+12 more</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">ekip/satis/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ekip/operasyon/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ekip/finans/page.tsx</small><br>+5 more</td>
   <td>Module file in app/ekip/EkipDepartmentPage.tsx.</td>
 </tr>
 <tr>
@@ -5205,7 +4856,7 @@ flowchart LR
   <td><code>EkipDepartmentPage()</code><br><small style="color:var(--muted)">app/ekip/EkipDepartmentPage.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>healthTone()</code><br><small style="color:var(--muted)">app/ekip/EkipDepartmentPage.tsx</small></td>
-  <td><code>getTintClassName()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ekip/yonetim/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ekip/operasyon/page.tsx</small><br>+6 more</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">ekip/satis/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ekip/operasyon/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">ekip/finans/page.tsx</small><br>+5 more</td>
   <td>Organizes documentation pages, navigation, or content lookup.</td>
 </tr>
 <tr>
@@ -5327,6 +4978,355 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>app/ekip/EkipDepartmentPage.tsx</code></td><td>16 nodes</td></tr>
+<tr><td><code>ekip/arge/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>ekip/finans/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>ekip/ik/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>ekip/operasyon/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>app/ekip/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>ekip/pazarlama/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>ekip/satis/page.tsx</code></td><td>2 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x23, imports x8, imports x8, calls x5. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 16. Other ====== -->
+<h2 id="other">16. Other</h2>
+<p>Other groups implementation around app, pagetsx, departmanlar, components, mostly in musteriler/[slug]/data.ts, app/ajans/page.tsx, _components/channel-dashboard/ChannelDashboardView.tsx. This section covers 454 nodes and 648 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Other (454 nodes, 648 edges)
+    subgraph other_musteriler_slug_page_tsx_392160e5["musteriler/[slug]/page.tsx"]
+        slug_page_getcustomerprofilefromslug_ca3d46f2("getCustomerProfileFromSlug()<br/><small>musteriler/[slug]/page.tsx</small>")
+        slug_page_musteridetaypage_fb247d32("MusteriDetayPage()<br/><small>musteriler/[slug]/page.tsx</small>")
+        slug_page_getstatusbadgeclass_cd311e5f("getStatusBadgeClass()<br/><small>musteriler/[slug]/page.tsx</small>")
+    end
+    subgraph other_musteriler_slug_components_tsx_68ebda2d["musteriler/[slug]/components.tsx"]
+        slug_components_parsemetricvalue_d283eddb("parseMetricValue()<br/><small>musteriler/[slug]/components.tsx</small>")
+        slug_components_getmetricclass_b28b482a("getMetricClass()<br/><small>musteriler/[slug]/components.tsx</small>")
+    end
+    subgraph other_musteriler_crm_CrmPageClient_tsx_2043772e["musteriler/crm/CrmPageClient.tsx"]
+        app_musteriler_crm_crmpageclient_tsx_c377e8ed("CrmPageClient.tsx")
+        crm_crmpageclient_crmpageclient_0d010996("CrmPageClient()<br/><small>musteriler/crm/CrmPageClient.tsx</small>")
+    end
+    subgraph other_musteriler_crm_KesifKarti_tsx_71cd645b["musteriler/crm/KesifKarti.tsx"]
+        crm_kesifkarti_getinstagramhandle_def0d4d5("getInstagramHandle()<br/><small>musteriler/crm/KesifKarti.tsx</small>")
+        crm_kesifkarti_kesifkarti_7bf9daaa("KesifKarti()<br/><small>musteriler/crm/KesifKarti.tsx</small>")
+    end
+    common_productui_gettintclassname_b4fd9bc7("getTintClassName()<br/><small>_components/common/ProductUI.tsx</small>")
+    app_components_workspace_workspaceprovider_tsx_ae1977e0("WorkspaceProvider.tsx")
+    app_ajans_agencytabs_tsx_d7584e76("AgencyTabs.tsx")
+    app_ajans_page_tsx_948539fc("page.tsx")
+    app_atolye_atolyetabs_tsx_73643f6b("AtolyeTabs.tsx")
+    finans_page_moneyline_4fc5d237("MoneyLine()<br/><small>departmanlar/finans/page.tsx</small>")
+    pazarlama_page_minimetric_0a3de1dd("MiniMetric()<br/><small>departmanlar/pazarlama/page.tsx</small>")
+    app_musteriler_slug_generaltab_tsx_def3d88d("GeneralTab.tsx")
+    crm_data_getcolumnmetric_0d77bcc5("getColumnMetric()<br/><small>musteriler/crm/data.ts</small>")
+    finans_page_moneyline_4fc5d237 -->|calls| common_productui_gettintclassname_b4fd9bc7
+    pazarlama_page_minimetric_0a3de1dd -->|calls| common_productui_gettintclassname_b4fd9bc7
+    crm_crmpageclient_crmpageclient_0d010996 -->|calls| crm_data_getcolumnmetric_0d77bcc5
+    crm_kesifkarti_getinstagramhandle_def0d4d5 -->|calls| crm_kesifkarti_kesifkarti_7bf9daaa
+    slug_components_parsemetricvalue_d283eddb -->|calls| slug_components_getmetricclass_b28b482a
+    slug_page_getcustomerprofilefromslug_ca3d46f2 -->|calls| slug_page_musteridetaypage_fb247d32
+    slug_page_getstatusbadgeclass_cd311e5f -->|calls| slug_page_musteridetaypage_fb247d32
+    app_ajans_page_tsx_948539fc -->|imports| common_productui_gettintclassname_b4fd9bc7
+    app_musteriler_crm_crmpageclient_tsx_c377e8ed -->|imports| crm_data_getcolumnmetric_0d77bcc5
+    app_musteriler_crm_crmpageclient_tsx_c377e8ed -->|imports| crm_kesifkarti_kesifkarti_7bf9daaa
+    app_musteriler_slug_generaltab_tsx_def3d88d -->|imports| common_productui_gettintclassname_b4fd9bc7
+    %% Omitted for readability: 436 nodes, 0 edges
+    class slug_page_getcustomerprofilefromslug_ca3d46f2 ui;
+    class slug_page_musteridetaypage_fb247d32 ui;
+    class slug_page_getstatusbadgeclass_cd311e5f ui;
+    class slug_components_parsemetricvalue_d283eddb ui;
+    class slug_components_getmetricclass_b28b482a ui;
+    class app_musteriler_crm_crmpageclient_tsx_c377e8ed entry;
+    class crm_crmpageclient_crmpageclient_0d010996 entry;
+    class crm_kesifkarti_getinstagramhandle_def0d4d5 ui;
+    class crm_kesifkarti_kesifkarti_7bf9daaa ui;
+    class common_productui_gettintclassname_b4fd9bc7 ui;
+    class app_components_workspace_workspaceprovider_tsx_ae1977e0 ui;
+    class app_ajans_agencytabs_tsx_d7584e76 ui;
+    class app_ajans_page_tsx_948539fc ui;
+    class app_atolye_atolyetabs_tsx_73643f6b ui;
+    class finans_page_moneyline_4fc5d237 ui;
+    class pazarlama_page_minimetric_0a3de1dd ui;
+    class app_musteriler_slug_generaltab_tsx_def3d88d ui;
+    class crm_data_getcolumnmetric_0d77bcc5 function;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
+<tr>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/plan/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>PlanPageView()</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small><br><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small></td>
+  <td>Module file in app/plan/page.tsx.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>Page()</code><br><small style="color:var(--muted)">app/plan/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/pusula/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>ProductTone</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>ProductUI.tsx</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>StatusBadge()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td>Module file in app/pusula/page.tsx.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>boards</code><br><small style="color:var(--muted)">app/pusula/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>boards node in app/pusula/page.tsx.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>templates</code><br><small style="color:var(--muted)">app/pusula/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>templates node in app/pusula/page.tsx.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>Page()</code><br><small style="color:var(--muted)">app/pusula/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>index.ts</code><br><small style="color:var(--muted)">_components/common/index.ts</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/pazarlama/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/finans/page.tsx</small><br>+6 more</td>
+  <td><code>SettingsView.tsx</code><br><small style="color:var(--muted)">_components/settings/SettingsView.tsx</small></td>
+  <td>Module file in _components/common/index.ts.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>ProductUI.tsx</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>ChannelDashboardView.tsx</code><br><small style="color:var(--muted)">_components/channel-dashboard/ChannelDashboardView.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">app/pusula/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">app/landing/page.tsx</small></td>
+  <td><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small><br><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small><br><code>PlanStatusMeta.ts</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small><br>+1 more</td>
+  <td>Module file in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>ProductTone</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/pazarlama/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/finans/page.tsx</small><br>+7 more</td>
+  <td><code>PlanStatusMeta.ts</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small></td>
+  <td>ProductTone node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>ProductIcon</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>ProductIcon node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>SectionTitleProps</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>SectionTitleProps node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>StatusBadgeProps</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>StatusBadgeProps node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>MetricTileProps</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>MetricTileProps node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>KpiCardProps</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>KpiCardProps node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>DecisionSummaryProps</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>DecisionSummaryProps node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>cx()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>KpiCard()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>MetricTile()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>StatusBadge()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td>cx() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>getToneClassName()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/pazarlama/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/finans/page.tsx</small><br>+6 more</td>
+  <td><code>KpiCard()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>StatusBadge()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td>getToneClassName() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>SectionTitle()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/pazarlama/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">departmanlar/finans/page.tsx</small><br>+6 more</td>
+  <td><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small></td>
+  <td>SectionTitle() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>StatusBadge()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>cx()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>getToneClassName()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br>+9 more</td>
+  <td><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small><br><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small><br><code>SettingsView.tsx</code><br><small style="color:var(--muted)">_components/settings/SettingsView.tsx</small></td>
+  <td>StatusBadge() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>MetricTile()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>cx()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>getTintClassName()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br>+1 more</td>
+  <td>No direct outbound edge</td>
+  <td>MetricTile() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>KpiCard()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>cx()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>getToneClassName()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br>+1 more</td>
+  <td><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small></td>
+  <td>KpiCard() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>DecisionSummary()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>GeneralTab.tsx</code><br><small style="color:var(--muted)">musteriler/[slug]/GeneralTab.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">app/ajans/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>DecisionSummary() node in _components/common/ProductUI.tsx.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>ProductUI.tsx</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>StatusBadge()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td><code>getPlanItemStatusMeta()</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small><br><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small><br><code>PlanStatusMeta.ts</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small></td>
+  <td>Module file in _components/plan/PlanItemCard.tsx.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>PlanItemCard()</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>getPlanItemStatusMeta()</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small><br><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small></td>
+  <td>PlanItemCard() node in _components/plan/PlanItemCard.tsx.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>PlanPageView.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>KpiCard()</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">app/plan/page.tsx</small><br><code>PlanItemCard()</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small><br>+4 more</td>
+  <td>No direct outbound edge</td>
+  <td>Module file in _components/plan/PlanPageView.tsx.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>PlanPageView()</code><br><small style="color:var(--muted)">_components/plan/PlanPageView.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">app/plan/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>PlanStatusMeta.ts</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small><br><code>ProductTone</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small><br><code>ProductUI.tsx</code><br><small style="color:var(--muted)">_components/common/ProductUI.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>Module file in _components/plan/PlanStatusMeta.ts.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>getPlanItemStatusMeta()</code><br><small style="color:var(--muted)">_components/plan/PlanStatusMeta.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>PlanItemCard()</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small><br><code>PlanItemCard.tsx</code><br><small style="color:var(--muted)">_components/plan/PlanItemCard.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>getPlanItemStatusMeta() node in _components/plan/PlanStatusMeta.ts.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>AppShell.tsx</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>AppNavigation()</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>AppNavigation.tsx</code><br><small style="color:var(--muted)">components/AppNavigation.tsx</small><br><code>layout.tsx</code><br><small style="color:var(--muted)">app/layout.tsx</small><br>+2 more</td>
+  <td>Module file in app/AppShell.tsx.</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td><code>AppShell()</code><br><small style="color:var(--muted)">app/AppShell.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>layout.tsx</code><br><small style="color:var(--muted)">app/layout.tsx</small></td>
+  <td>AppShell() node in app/AppShell.tsx.</td>
+</tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>musteriler/[slug]/data.ts</code></td><td>41 nodes</td></tr>
 <tr><td><code>app/ajans/page.tsx</code></td><td>21 nodes</td></tr>
 <tr><td><code>_components/channel-dashboard/ChannelDashboardView.tsx</code></td><td>20 nodes</td></tr>
@@ -5339,7 +5339,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x386, imports x164, imports x64, calls x22. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x388, imports x160, imports x72, calls x19. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -5350,17 +5350,17 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1751</td></tr>
-      <tr><td>Edges</td><td>2200</td></tr>
+      <tr><td>Nodes</td><td>1761</td></tr>
+      <tr><td>Edges</td><td>2209</td></tr>
       <tr><td>Hyperedges</td><td>0</td></tr>
-      <tr><td>Communities</td><td>53</td></tr>
+      <tr><td>Communities</td><td>54</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>2200</td></tr>
+      <tr><td>EXTRACTED</td><td>2209</td></tr>
       <tr><td>INFERRED</td><td>0</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -5369,7 +5369,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>piaq — Architecture Documentation</p>
-  <p>Generated: 2026-05-24 12:30 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-05-24 12:48 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->
