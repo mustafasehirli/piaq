@@ -1,30 +1,31 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Archivo, DM_Sans, Geist, Sora } from "next/font/google";
+import { Suspense } from "react";
+import localFont from "next/font/local";
 import { AppShell } from "./AppShell";
 import "./globals.css";
 
-const archivo = Archivo({
-  subsets: ["latin", "latin-ext"],
+const archivo = localFont({
+  src: "../public/fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf",
   variable: "--font-archivo",
   display: "swap"
 });
 
-const geist = Geist({
-  subsets: ["latin"],
+const caveat = localFont({
+  src: "../public/fonts/Caveat/Caveat-VariableFont_wght.ttf",
+  variable: "--font-caveat",
+  display: "swap"
+});
+
+const geist = localFont({
+  src: "../public/fonts/Geist/Geist-VariableFont_wght.ttf",
   variable: "--font-geist",
   display: "swap"
 });
 
-const sora = Sora({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-sora",
-  display: "swap"
-});
-
-const dmSans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-dm-sans",
+const inter = localFont({
+  src: "../public/fonts/Inter/Inter-VariableFont_opsz,wght.ttf",
+  variable: "--font-inter",
   display: "swap"
 });
 
@@ -39,11 +40,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="tr" suppressHydrationWarning className={`${archivo.variable} ${geist.variable} ${sora.variable} ${dmSans.variable}`}>
+    <html lang="tr" suppressHydrationWarning className={`${archivo.variable} ${caveat.variable} ${geist.variable} ${inter.variable}`}>
       <body>
-        <AppShell>
-          {children}
-        </AppShell>
+        <Suspense fallback={null}>
+          <AppShell>
+            {children}
+          </AppShell>
+        </Suspense>
       </body>
     </html>
   );

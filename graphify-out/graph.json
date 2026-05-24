@@ -772,43 +772,43 @@
       "label": "archivo",
       "file_type": "code",
       "source_file": "app/layout.tsx",
-      "source_location": "L7",
+      "source_location": "L8",
       "id": "app_layout_archivo",
       "community": 14,
       "norm_label": "archivo"
     },
     {
+      "label": "caveat",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L14",
+      "id": "app_layout_caveat",
+      "community": 14,
+      "norm_label": "caveat"
+    },
+    {
       "label": "geist",
       "file_type": "code",
       "source_file": "app/layout.tsx",
-      "source_location": "L13",
+      "source_location": "L20",
       "id": "app_layout_geist",
       "community": 14,
       "norm_label": "geist"
     },
     {
-      "label": "sora",
+      "label": "inter",
       "file_type": "code",
       "source_file": "app/layout.tsx",
-      "source_location": "L19",
-      "id": "app_layout_sora",
+      "source_location": "L26",
+      "id": "app_layout_inter",
       "community": 14,
-      "norm_label": "sora"
-    },
-    {
-      "label": "dmSans",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L25",
-      "id": "app_layout_dmsans",
-      "community": 14,
-      "norm_label": "dmsans"
+      "norm_label": "inter"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "app/layout.tsx",
-      "source_location": "L31",
+      "source_location": "L32",
       "id": "app_layout_metadata",
       "community": 14,
       "norm_label": "metadata"
@@ -817,7 +817,7 @@
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "app/layout.tsx",
-      "source_location": "L40",
+      "source_location": "L41",
       "id": "app_layout_rootlayout",
       "community": 14,
       "norm_label": "rootlayout()"
@@ -828,395 +828,17 @@
       "source_file": "app/page.tsx",
       "source_location": "L1",
       "id": "app_page_tsx",
-      "community": 17,
+      "community": 59,
       "norm_label": "page.tsx"
     },
     {
       "label": "DashboardPage()",
       "file_type": "code",
       "source_file": "app/page.tsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "id": "app_page_dashboardpage",
-      "community": 17,
+      "community": 59,
       "norm_label": "dashboardpage()"
-    },
-    {
-      "label": "AgencyTabs.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_agencytabs_tsx",
-      "community": 20,
-      "norm_label": "agencytabs.tsx"
-    },
-    {
-      "label": "AgencyTabs",
-      "file_type": "code",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L20",
-      "id": "ajans_agencytabs_agencytabs",
-      "community": 20,
-      "norm_label": "agencytabs"
-    },
-    {
-      "label": "layout.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/layout.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_layout_tsx",
-      "community": 20,
-      "norm_label": "layout.tsx"
-    },
-    {
-      "label": "Layout()",
-      "file_type": "code",
-      "source_file": "app/ajans/layout.tsx",
-      "source_location": "L4",
-      "id": "ajans_layout_layout",
-      "community": 20,
-      "norm_label": "layout()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_page_tsx",
-      "community": 18,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Tone",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L36",
-      "id": "ajans_page_tone",
-      "community": 18,
-      "norm_label": "tone"
-    },
-    {
-      "label": "IconComponent",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L38",
-      "id": "ajans_page_iconcomponent",
-      "community": 18,
-      "norm_label": "iconcomponent"
-    },
-    {
-      "label": "Kpi",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L40",
-      "id": "ajans_page_kpi",
-      "community": 18,
-      "norm_label": "kpi"
-    },
-    {
-      "label": "ChannelRow",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L49",
-      "id": "ajans_page_channelrow",
-      "community": 18,
-      "norm_label": "channelrow"
-    },
-    {
-      "label": "RadarItem",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L62",
-      "id": "ajans_page_radaritem",
-      "community": 18,
-      "norm_label": "radaritem"
-    },
-    {
-      "label": "CustomerHealth",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L70",
-      "id": "ajans_page_customerhealth",
-      "community": 18,
-      "norm_label": "customerhealth"
-    },
-    {
-      "label": "FunnelStage",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L80",
-      "id": "ajans_page_funnelstage",
-      "community": 18,
-      "norm_label": "funnelstage"
-    },
-    {
-      "label": "OperationItem",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L89",
-      "id": "ajans_page_operationitem",
-      "community": 18,
-      "norm_label": "operationitem"
-    },
-    {
-      "label": "FinanceItem",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L98",
-      "id": "ajans_page_financeitem",
-      "community": 18,
-      "norm_label": "financeitem"
-    },
-    {
-      "label": "DecisionItem",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L105",
-      "id": "ajans_page_decisionitem",
-      "community": 18,
-      "norm_label": "decisionitem"
-    },
-    {
-      "label": "kpis",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L113",
-      "id": "ajans_page_kpis",
-      "community": 18,
-      "norm_label": "kpis"
-    },
-    {
-      "label": "channels",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L124",
-      "id": "ajans_page_channels",
-      "community": 18,
-      "norm_label": "channels"
-    },
-    {
-      "label": "radarItems",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L133",
-      "id": "ajans_page_radaritems",
-      "community": 18,
-      "norm_label": "radaritems"
-    },
-    {
-      "label": "customers",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L140",
-      "id": "ajans_page_customers",
-      "community": 18,
-      "norm_label": "customers"
-    },
-    {
-      "label": "funnelStages",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L147",
-      "id": "ajans_page_funnelstages",
-      "community": 18,
-      "norm_label": "funnelstages"
-    },
-    {
-      "label": "operations",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L155",
-      "id": "ajans_page_operations",
-      "community": 18,
-      "norm_label": "operations"
-    },
-    {
-      "label": "finance",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L162",
-      "id": "ajans_page_finance",
-      "community": 18,
-      "norm_label": "finance"
-    },
-    {
-      "label": "decisions",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L169",
-      "id": "ajans_page_decisions",
-      "community": 18,
-      "norm_label": "decisions"
-    },
-    {
-      "label": "TableShell()",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L176",
-      "id": "ajans_page_tableshell",
-      "community": 18,
-      "norm_label": "tableshell()"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L180",
-      "id": "ajans_page_page",
-      "community": 18,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_ayarlar_page_tsx",
-      "community": 15,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "toggleListItem()",
-      "file_type": "code",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L7",
-      "id": "app_ajans_ayarlar_page_tsx_ayarlar_page_togglelistitem",
-      "community": 15,
-      "norm_label": "togglelistitem()"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L13",
-      "id": "app_ajans_ayarlar_page_tsx_ayarlar_page_page",
-      "community": 15,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/funnel/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_funnel_page_tsx",
-      "community": 6,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/funnel/page.tsx",
-      "source_location": "L4",
-      "id": "app_ajans_funnel_page_tsx_funnel_page_page",
-      "community": 6,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/google/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_google_page_tsx",
-      "community": 3,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/google/page.tsx",
-      "source_location": "L4",
-      "id": "app_ajans_google_page_tsx_google_page_page",
-      "community": 3,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/mail/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_mail_page_tsx",
-      "community": 7,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/mail/page.tsx",
-      "source_location": "L3",
-      "id": "app_ajans_mail_page_tsx_mail_page_page",
-      "community": 7,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/meta/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_meta_page_tsx",
-      "community": 2,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/meta/page.tsx",
-      "source_location": "L3",
-      "id": "app_ajans_meta_page_tsx_meta_page_page",
-      "community": 2,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/plan/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_plan_page_tsx",
-      "community": 1,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/plan/page.tsx",
-      "source_location": "L3",
-      "id": "app_ajans_plan_page_tsx_plan_page_page",
-      "community": 1,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/sosyal-medya/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_sosyal_medya_page_tsx",
-      "community": 5,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/sosyal-medya/page.tsx",
-      "source_location": "L3",
-      "id": "app_ajans_sosyal_medya_page_tsx_sosyal_medya_page_page",
-      "community": 5,
-      "norm_label": "page()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/ajans/tiktok/page.tsx",
-      "source_location": "L1",
-      "id": "app_ajans_tiktok_page_tsx",
-      "community": 4,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Page()",
-      "file_type": "code",
-      "source_file": "app/ajans/tiktok/page.tsx",
-      "source_location": "L3",
-      "id": "app_ajans_tiktok_page_tsx_tiktok_page_page",
-      "community": 4,
-      "norm_label": "page()"
     },
     {
       "label": "AtolyeTabs.tsx",
@@ -1286,7 +908,7 @@
       "file_type": "code",
       "source_file": "app/atolye/ayarlar/page.tsx",
       "source_location": "L7",
-      "id": "app_atolye_ayarlar_page_tsx_ayarlar_page_togglelistitem",
+      "id": "ayarlar_page_togglelistitem",
       "community": 15,
       "norm_label": "togglelistitem()"
     },
@@ -1295,7 +917,7 @@
       "file_type": "code",
       "source_file": "app/atolye/ayarlar/page.tsx",
       "source_location": "L13",
-      "id": "app_atolye_ayarlar_page_tsx_ayarlar_page_page",
+      "id": "ayarlar_page_page",
       "community": 15,
       "norm_label": "page()"
     },
@@ -1313,7 +935,7 @@
       "file_type": "code",
       "source_file": "app/atolye/funnel/page.tsx",
       "source_location": "L4",
-      "id": "app_atolye_funnel_page_tsx_funnel_page_page",
+      "id": "funnel_page_page",
       "community": 6,
       "norm_label": "page()"
     },
@@ -1331,7 +953,7 @@
       "file_type": "code",
       "source_file": "app/atolye/google/page.tsx",
       "source_location": "L4",
-      "id": "app_atolye_google_page_tsx_google_page_page",
+      "id": "google_page_page",
       "community": 3,
       "norm_label": "page()"
     },
@@ -1349,7 +971,7 @@
       "file_type": "code",
       "source_file": "app/atolye/mail/page.tsx",
       "source_location": "L3",
-      "id": "app_atolye_mail_page_tsx_mail_page_page",
+      "id": "mail_page_page",
       "community": 7,
       "norm_label": "page()"
     },
@@ -1359,7 +981,7 @@
       "source_file": "app/atolye/meta/page.tsx",
       "source_location": "L1",
       "id": "app_atolye_meta_page_tsx",
-      "community": 2,
+      "community": 40,
       "norm_label": "page.tsx"
     },
     {
@@ -1367,8 +989,8 @@
       "file_type": "code",
       "source_file": "app/atolye/meta/page.tsx",
       "source_location": "L3",
-      "id": "app_atolye_meta_page_tsx_meta_page_page",
-      "community": 2,
+      "id": "meta_page_page",
+      "community": 40,
       "norm_label": "page()"
     },
     {
@@ -1385,7 +1007,7 @@
       "file_type": "code",
       "source_file": "app/atolye/sosyal-medya/page.tsx",
       "source_location": "L3",
-      "id": "app_atolye_sosyal_medya_page_tsx_sosyal_medya_page_page",
+      "id": "sosyal_medya_page_page",
       "community": 5,
       "norm_label": "page()"
     },
@@ -1403,7 +1025,7 @@
       "file_type": "code",
       "source_file": "app/atolye/tiktok/page.tsx",
       "source_location": "L3",
-      "id": "app_atolye_tiktok_page_tsx_tiktok_page_page",
+      "id": "tiktok_page_page",
       "community": 4,
       "norm_label": "page()"
     },
@@ -1440,7 +1062,7 @@
       "source_file": "app/departmanlar/DepartmentTabs.tsx",
       "source_location": "L1",
       "id": "app_departmanlar_departmenttabs_tsx",
-      "community": 39,
+      "community": 36,
       "norm_label": "departmenttabs.tsx"
     },
     {
@@ -1449,7 +1071,7 @@
       "source_file": "app/departmanlar/DepartmentTabs.tsx",
       "source_location": "L18",
       "id": "departmanlar_departmenttabs_departmenttabs",
-      "community": 39,
+      "community": 36,
       "norm_label": "departmenttabs"
     },
     {
@@ -1458,7 +1080,7 @@
       "source_file": "app/departmanlar/layout.tsx",
       "source_location": "L1",
       "id": "app_departmanlar_layout_tsx",
-      "community": 39,
+      "community": 36,
       "norm_label": "layout.tsx"
     },
     {
@@ -1467,7 +1089,7 @@
       "source_file": "app/departmanlar/layout.tsx",
       "source_location": "L4",
       "id": "departmanlar_layout_layout",
-      "community": 39,
+      "community": 36,
       "norm_label": "layout()"
     },
     {
@@ -3195,7 +2817,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L1",
       "id": "app_musteriler_page_tsx",
-      "community": 17,
+      "community": 38,
       "norm_label": "page.tsx"
     },
     {
@@ -3204,7 +2826,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L9",
       "id": "musteriler_page_customerstatus",
-      "community": 17,
+      "community": 38,
       "norm_label": "customerstatus"
     },
     {
@@ -3213,7 +2835,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L11",
       "id": "musteriler_page_customerrow",
-      "community": 17,
+      "community": 38,
       "norm_label": "customerrow"
     },
     {
@@ -3222,7 +2844,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L30",
       "id": "musteriler_page_customers",
-      "community": 17,
+      "community": 38,
       "norm_label": "customers"
     },
     {
@@ -3231,7 +2853,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L39",
       "id": "musteriler_page_statuses",
-      "community": 17,
+      "community": 38,
       "norm_label": "statuses"
     },
     {
@@ -3240,7 +2862,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L41",
       "id": "musteriler_page_statustonemap",
-      "community": 17,
+      "community": 38,
       "norm_label": "statustonemap"
     },
     {
@@ -3249,7 +2871,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L47",
       "id": "musteriler_page_platformbadge",
-      "community": 17,
+      "community": 38,
       "norm_label": "platformbadge()"
     },
     {
@@ -3258,7 +2880,7 @@
       "source_file": "app/musteriler/page.tsx",
       "source_location": "L51",
       "id": "musteriler_page_musterilerpage",
-      "community": 17,
+      "community": 38,
       "norm_label": "musterilerpage()"
     },
     {
@@ -3501,7 +3123,7 @@
       "source_file": "app/musteriler/[slug]/components.tsx",
       "source_location": "L169",
       "id": "slug_components_getcustomerserviceclass",
-      "community": 17,
+      "community": 38,
       "norm_label": "getcustomerserviceclass()"
     },
     {
@@ -4158,7 +3780,7 @@
       "source_file": "app/musteriler/[slug]/MetaTab.tsx",
       "source_location": "L1",
       "id": "app_musteriler_slug_metatab_tsx",
-      "community": 2,
+      "community": 44,
       "norm_label": "metatab.tsx"
     },
     {
@@ -4167,7 +3789,7 @@
       "source_file": "app/musteriler/[slug]/MetaTab.tsx",
       "source_location": "L3",
       "id": "slug_metatab_metatabprops",
-      "community": 2,
+      "community": 44,
       "norm_label": "metatabprops"
     },
     {
@@ -4176,7 +3798,7 @@
       "source_file": "app/musteriler/[slug]/MetaTab.tsx",
       "source_location": "L7",
       "id": "slug_metatab_metatab",
-      "community": 2,
+      "community": 44,
       "norm_label": "metatab()"
     },
     {
@@ -4365,7 +3987,7 @@
       "source_file": "app/plan/page.tsx",
       "source_location": "L1",
       "id": "app_plan_page_tsx",
-      "community": 19,
+      "community": 33,
       "norm_label": "page.tsx"
     },
     {
@@ -4373,8 +3995,8 @@
       "file_type": "code",
       "source_file": "app/plan/page.tsx",
       "source_location": "L3",
-      "id": "app_plan_page_tsx_plan_page_page",
-      "community": 19,
+      "id": "plan_page_page",
+      "community": 33,
       "norm_label": "page()"
     },
     {
@@ -4815,7 +4437,7 @@
       "source_file": "app/_components/common/ProductUI.tsx",
       "source_location": "L64",
       "id": "common_productui_valuetext",
-      "community": 17,
+      "community": 41,
       "norm_label": "valuetext()"
     },
     {
@@ -4824,7 +4446,7 @@
       "source_file": "app/_components/common/ProductUI.tsx",
       "source_location": "L79",
       "id": "common_productui_sectiontitle",
-      "community": 19,
+      "community": 33,
       "norm_label": "sectiontitle()"
     },
     {
@@ -4896,7 +4518,7 @@
       "source_file": "app/_components/dashboard/DashboardPageClient.tsx",
       "source_location": "L43",
       "id": "dashboard_dashboardpageclient_dashboardpageclient",
-      "community": 17,
+      "community": 59,
       "norm_label": "dashboardpageclient()"
     },
     {
@@ -4905,7 +4527,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L1",
       "id": "app_components_dashboard_dashboardsections_tsx",
-      "community": 17,
+      "community": 58,
       "norm_label": "dashboardsections.tsx"
     },
     {
@@ -4923,7 +4545,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L16",
       "id": "dashboard_dashboardsections_sectiontitle",
-      "community": 17,
+      "community": 58,
       "norm_label": "sectiontitle"
     },
     {
@@ -4950,7 +4572,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L52",
       "id": "dashboard_dashboardsections_sparkline",
-      "community": 17,
+      "community": 58,
       "norm_label": "sparkline()"
     },
     {
@@ -4959,7 +4581,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L62",
       "id": "dashboard_dashboardsections_rollingcurrencyvalue",
-      "community": 17,
+      "community": 58,
       "norm_label": "rollingcurrencyvalue()"
     },
     {
@@ -4968,7 +4590,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L98",
       "id": "dashboard_dashboardsections_statcard",
-      "community": 17,
+      "community": 58,
       "norm_label": "statcard()"
     },
     {
@@ -4977,7 +4599,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L169",
       "id": "dashboard_dashboardsections_trendchart",
-      "community": 17,
+      "community": 58,
       "norm_label": "trendchart()"
     },
     {
@@ -4986,7 +4608,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L291",
       "id": "dashboard_dashboardsections_channelsparkline",
-      "community": 17,
+      "community": 58,
       "norm_label": "channelsparkline()"
     },
     {
@@ -4995,7 +4617,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L315",
       "id": "dashboard_dashboardsections_servicebadge",
-      "community": 17,
+      "community": 38,
       "norm_label": "servicebadge()"
     },
     {
@@ -5004,7 +4626,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L321",
       "id": "dashboard_dashboardsections_parsecurrencyvalue",
-      "community": 17,
+      "community": 58,
       "norm_label": "parsecurrencyvalue()"
     },
     {
@@ -5013,7 +4635,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L325",
       "id": "dashboard_dashboardsections_formatcurrencyvalue",
-      "community": 17,
+      "community": 58,
       "norm_label": "formatcurrencyvalue()"
     },
     {
@@ -5022,7 +4644,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L329",
       "id": "dashboard_dashboardsections_getspenddistribution",
-      "community": 17,
+      "community": 59,
       "norm_label": "getspenddistribution()"
     },
     {
@@ -5031,7 +4653,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L345",
       "id": "dashboard_dashboardsections_getspenddistributiongradient",
-      "community": 17,
+      "community": 58,
       "norm_label": "getspenddistributiongradient()"
     },
     {
@@ -5040,7 +4662,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L358",
       "id": "dashboard_dashboardsections_getdonutcolor",
-      "community": 17,
+      "community": 58,
       "norm_label": "getdonutcolor()"
     },
     {
@@ -5049,7 +4671,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L369",
       "id": "dashboard_dashboardsections_spenddistributionsection",
-      "community": 17,
+      "community": 58,
       "norm_label": "spenddistributionsection()"
     },
     {
@@ -5058,7 +4680,7 @@
       "source_file": "app/_components/dashboard/DashboardSections.tsx",
       "source_location": "L491",
       "id": "dashboard_dashboardsections_sectionheader",
-      "community": 17,
+      "community": 58,
       "norm_label": "sectionheader()"
     },
     {
@@ -6282,7 +5904,7 @@
       "source_file": "app/_components/meta-ads/MetaAdsView.tsx",
       "source_location": "L249",
       "id": "meta_ads_metaadsview_gettoneclass",
-      "community": 2,
+      "community": 57,
       "norm_label": "gettoneclass()"
     },
     {
@@ -6318,7 +5940,7 @@
       "source_file": "app/_components/meta-ads/MetaAdsView.tsx",
       "source_location": "L279",
       "id": "meta_ads_metaadsview_statusbadge",
-      "community": 2,
+      "community": 57,
       "norm_label": "statusbadge()"
     },
     {
@@ -6354,7 +5976,7 @@
       "source_file": "app/_components/meta-ads/MetaAdsView.tsx",
       "source_location": "L321",
       "id": "meta_ads_metaadsview_metaadsview",
-      "community": 2,
+      "community": 40,
       "norm_label": "metaadsview()"
     },
     {
@@ -6480,7 +6102,7 @@
       "source_file": "app/_components/meta-ads/MetaAdsView.tsx",
       "source_location": "L804",
       "id": "meta_ads_metaadsview_agencymetaadsdata",
-      "community": 2,
+      "community": 40,
       "norm_label": "agencymetaadsdata"
     },
     {
@@ -6489,7 +6111,7 @@
       "source_file": "app/_components/meta-ads/MetaAdsView.tsx",
       "source_location": "L826",
       "id": "meta_ads_metaadsview_customermetaadsdata",
-      "community": 2,
+      "community": 44,
       "norm_label": "customermetaadsdata"
     },
     {
@@ -6525,7 +6147,7 @@
       "source_file": "app/_components/navigation/CollapsibleSectionNav.tsx",
       "source_location": "L14",
       "id": "navigation_collapsiblesectionnav_sectionnavitem",
-      "community": 39,
+      "community": 36,
       "norm_label": "sectionnavitem"
     },
     {
@@ -6615,7 +6237,7 @@
       "source_file": "app/_components/plan/PlanDraftDetailPanel.tsx",
       "source_location": "L1",
       "id": "app_components_plan_plandraftdetailpanel_tsx",
-      "community": 1,
+      "community": 33,
       "norm_label": "plandraftdetailpanel.tsx"
     },
     {
@@ -6624,7 +6246,7 @@
       "source_file": "app/_components/plan/PlanDraftDetailPanel.tsx",
       "source_location": "L8",
       "id": "plan_plandraftdetailpanel_plandraftdetailpanelprops",
-      "community": 1,
+      "community": 33,
       "norm_label": "plandraftdetailpanelprops"
     },
     {
@@ -6633,7 +6255,7 @@
       "source_file": "app/_components/plan/PlanDraftDetailPanel.tsx",
       "source_location": "L23",
       "id": "plan_plandraftdetailpanel_channeloptions",
-      "community": 1,
+      "community": 33,
       "norm_label": "channeloptions"
     },
     {
@@ -6642,7 +6264,7 @@
       "source_file": "app/_components/plan/PlanDraftDetailPanel.tsx",
       "source_location": "L24",
       "id": "plan_plandraftdetailpanel_departmentoptions",
-      "community": 1,
+      "community": 33,
       "norm_label": "departmentoptions"
     },
     {
@@ -6651,7 +6273,7 @@
       "source_file": "app/_components/plan/PlanDraftDetailPanel.tsx",
       "source_location": "L30",
       "id": "plan_plandraftdetailpanel_assigneeoptions",
-      "community": 1,
+      "community": 33,
       "norm_label": "assigneeoptions"
     },
     {
@@ -6660,7 +6282,7 @@
       "source_file": "app/_components/plan/PlanDraftDetailPanel.tsx",
       "source_location": "L36",
       "id": "plan_plandraftdetailpanel_togglevalue",
-      "community": 1,
+      "community": 33,
       "norm_label": "togglevalue()"
     },
     {
@@ -6669,7 +6291,7 @@
       "source_file": "app/_components/plan/PlanDraftDetailPanel.tsx",
       "source_location": "L42",
       "id": "plan_plandraftdetailpanel_plandraftdetailpanel",
-      "community": 1,
+      "community": 33,
       "norm_label": "plandraftdetailpanel()"
     },
     {
@@ -6678,7 +6300,7 @@
       "source_file": "app/_components/plan/PlanItemCard.tsx",
       "source_location": "L1",
       "id": "app_components_plan_planitemcard_tsx",
-      "community": 19,
+      "community": 1,
       "norm_label": "planitemcard.tsx"
     },
     {
@@ -6687,7 +6309,7 @@
       "source_file": "app/_components/plan/PlanItemCard.tsx",
       "source_location": "L8",
       "id": "plan_planitemcard_planitemcard",
-      "community": 19,
+      "community": 1,
       "norm_label": "planitemcard()"
     },
     {
@@ -6696,7 +6318,7 @@
       "source_file": "app/_components/plan/PlanPageView.tsx",
       "source_location": "L1",
       "id": "app_components_plan_planpageview_tsx",
-      "community": 19,
+      "community": 33,
       "norm_label": "planpageview.tsx"
     },
     {
@@ -6705,7 +6327,7 @@
       "source_file": "app/_components/plan/PlanPageView.tsx",
       "source_location": "L11",
       "id": "plan_planpageview_planpageview",
-      "community": 19,
+      "community": 33,
       "norm_label": "planpageview()"
     },
     {
@@ -6714,7 +6336,7 @@
       "source_file": "app/_components/plan/PlanStatusMeta.ts",
       "source_location": "L1",
       "id": "app_components_plan_planstatusmeta_ts",
-      "community": 19,
+      "community": 1,
       "norm_label": "planstatusmeta.ts"
     },
     {
@@ -6723,7 +6345,7 @@
       "source_file": "app/_components/plan/PlanStatusMeta.ts",
       "source_location": "L4",
       "id": "plan_planstatusmeta_getplanitemstatusmeta",
-      "community": 19,
+      "community": 1,
       "norm_label": "getplanitemstatusmeta()"
     },
     {
@@ -6903,7 +6525,7 @@
       "source_file": "app/_components/pusula-plan/PusulaPlanProvider.tsx",
       "source_location": "L43",
       "id": "pusula_plan_pusulaplanprovider_pusulaplanprovider",
-      "community": 1,
+      "community": 14,
       "norm_label": "pusulaplanprovider()"
     },
     {
@@ -7740,7 +7362,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L1",
       "id": "components_appnavigation_tsx",
-      "community": 33,
+      "community": 14,
       "norm_label": "appnavigation.tsx"
     },
     {
@@ -7749,7 +7371,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L43",
       "id": "components_appnavigation_navicon",
-      "community": 33,
+      "community": 14,
       "norm_label": "navicon"
     },
     {
@@ -7758,7 +7380,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L45",
       "id": "components_appnavigation_navitem",
-      "community": 33,
+      "community": 14,
       "norm_label": "navitem"
     },
     {
@@ -7767,7 +7389,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L52",
       "id": "components_appnavigation_navseparator",
-      "community": 33,
+      "community": 14,
       "norm_label": "navseparator"
     },
     {
@@ -7776,7 +7398,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L57",
       "id": "components_appnavigation_naventry",
-      "community": 33,
+      "community": 14,
       "norm_label": "naventry"
     },
     {
@@ -7785,7 +7407,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L59",
       "id": "components_appnavigation_profilemenuitem",
-      "community": 33,
+      "community": 14,
       "norm_label": "profilemenuitem"
     },
     {
@@ -7794,7 +7416,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L66",
       "id": "components_appnavigation_mainitems",
-      "community": 33,
+      "community": 14,
       "norm_label": "mainitems"
     },
     {
@@ -7803,7 +7425,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L79",
       "id": "components_appnavigation_pagemeta",
-      "community": 33,
+      "community": 14,
       "norm_label": "pagemeta"
     },
     {
@@ -7812,7 +7434,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L113",
       "id": "components_appnavigation_notificationitems",
-      "community": 33,
+      "community": 14,
       "norm_label": "notificationitems"
     },
     {
@@ -7821,7 +7443,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L148",
       "id": "components_appnavigation_getnotificationtone",
-      "community": 33,
+      "community": 14,
       "norm_label": "getnotificationtone()"
     },
     {
@@ -7830,7 +7452,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L184",
       "id": "components_appnavigation_isactive",
-      "community": 33,
+      "community": 14,
       "norm_label": "isactive()"
     },
     {
@@ -7839,7 +7461,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L189",
       "id": "components_appnavigation_navlink",
-      "community": 33,
+      "community": 14,
       "norm_label": "navlink()"
     },
     {
@@ -7848,7 +7470,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L232",
       "id": "components_appnavigation_notificationcenterbutton",
-      "community": 33,
+      "community": 14,
       "norm_label": "notificationcenterbutton()"
     },
     {
@@ -7857,7 +7479,7 @@
       "source_file": "components/AppNavigation.tsx",
       "source_location": "L337",
       "id": "components_appnavigation_profilemenubutton",
-      "community": 33,
+      "community": 14,
       "norm_label": "profilemenubutton()"
     },
     {
@@ -8082,7 +7704,7 @@
       "source_file": "lib/data/channels.ts",
       "source_location": "L1",
       "id": "lib_data_channels_ts",
-      "community": 17,
+      "community": 38,
       "norm_label": "channels.ts"
     },
     {
@@ -8091,7 +7713,7 @@
       "source_file": "lib/data/channels.ts",
       "source_location": "L1",
       "id": "data_channels_channeltheme",
-      "community": 17,
+      "community": 38,
       "norm_label": "channeltheme"
     },
     {
@@ -8100,7 +7722,7 @@
       "source_file": "lib/data/channels.ts",
       "source_location": "L7",
       "id": "data_channels_defaultchanneltheme",
-      "community": 17,
+      "community": 38,
       "norm_label": "defaultchanneltheme"
     },
     {
@@ -8109,7 +7731,7 @@
       "source_file": "lib/data/channels.ts",
       "source_location": "L13",
       "id": "data_channels_channelthemes",
-      "community": 17,
+      "community": 38,
       "norm_label": "channelthemes"
     },
     {
@@ -8118,7 +7740,7 @@
       "source_file": "lib/data/channels.ts",
       "source_location": "L51",
       "id": "data_channels_getchanneltheme",
-      "community": 17,
+      "community": 38,
       "norm_label": "getchanneltheme()"
     },
     {
@@ -8127,7 +7749,7 @@
       "source_file": "lib/data/channels.ts",
       "source_location": "L55",
       "id": "data_channels_getchannelbadgeclass",
-      "community": 17,
+      "community": 38,
       "norm_label": "getchannelbadgeclass()"
     },
     {
@@ -8154,7 +7776,7 @@
       "source_file": "lib/data/dashboard.ts",
       "source_location": "L4",
       "id": "data_dashboard_timerange",
-      "community": 33,
+      "community": 14,
       "norm_label": "timerange"
     },
     {
@@ -8244,7 +7866,7 @@
       "source_file": "lib/data/dashboard.ts",
       "source_location": "L67",
       "id": "data_dashboard_timeranges",
-      "community": 33,
+      "community": 14,
       "norm_label": "timeranges"
     },
     {
@@ -8253,7 +7875,7 @@
       "source_file": "lib/data/dashboard.ts",
       "source_location": "L69",
       "id": "data_dashboard_getdashboardtimerange",
-      "community": 17,
+      "community": 59,
       "norm_label": "getdashboardtimerange()"
     },
     {
@@ -8773,7 +8395,7 @@
       "label": "Ortak Funnel Sistemi",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L191",
+      "source_location": "L190",
       "id": "piaq_agents_ortak_funnel_sistemi",
       "community": 10,
       "norm_label": "ortak funnel sistemi"
@@ -8782,7 +8404,7 @@
       "label": "Ortak Kanal Sistemleri",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L213",
+      "source_location": "L212",
       "id": "piaq_agents_ortak_kanal_sistemleri",
       "community": 10,
       "norm_label": "ortak kanal sistemleri"
@@ -8791,7 +8413,7 @@
       "label": "Departmanlar",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L225",
+      "source_location": "L224",
       "id": "piaq_agents_departmanlar",
       "community": 10,
       "norm_label": "departmanlar"
@@ -8800,7 +8422,7 @@
       "label": "Ekip",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L242",
+      "source_location": "L241",
       "id": "piaq_agents_ekip",
       "community": 10,
       "norm_label": "ekip"
@@ -8809,7 +8431,7 @@
       "label": "Kara Kutu",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L254",
+      "source_location": "L253",
       "id": "piaq_agents_kara_kutu",
       "community": 10,
       "norm_label": "kara kutu"
@@ -8818,7 +8440,7 @@
       "label": "Ayarlar",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L264",
+      "source_location": "L263",
       "id": "piaq_agents_ayarlar",
       "community": 10,
       "norm_label": "ayarlar"
@@ -8827,7 +8449,7 @@
       "label": "Sayfa Amaclari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L274",
+      "source_location": "L273",
       "id": "piaq_agents_sayfa_amaclari",
       "community": 10,
       "norm_label": "sayfa amaclari"
@@ -8836,7 +8458,7 @@
       "label": "Ortak Component ve Veri Kaynaklari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L296",
+      "source_location": "L295",
       "id": "piaq_agents_ortak_component_ve_veri_kaynaklari",
       "community": 10,
       "norm_label": "ortak component ve veri kaynaklari"
@@ -8845,7 +8467,7 @@
       "label": "Dokunma / Dikkat Et",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L342",
+      "source_location": "L341",
       "id": "piaq_agents_dokunma_dikkat_et",
       "community": 10,
       "norm_label": "dokunma / dikkat et"
@@ -8854,7 +8476,7 @@
       "label": "Tasarim ve Urun Kararlari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L367",
+      "source_location": "L366",
       "id": "piaq_agents_tasarim_ve_urun_kararlari",
       "community": 10,
       "norm_label": "tasarim ve urun kararlari"
@@ -8863,7 +8485,7 @@
       "label": "Reklam API Notlari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L409",
+      "source_location": "L408",
       "id": "piaq_agents_reklam_api_notlari",
       "community": 10,
       "norm_label": "reklam api notlari"
@@ -8872,7 +8494,7 @@
       "label": "Kod Kurallari",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L432",
+      "source_location": "L431",
       "id": "piaq_agents_kod_kurallari",
       "community": 10,
       "norm_label": "kod kurallari"
@@ -15730,7 +15352,7 @@
       "label": "Genel Is Akisi",
       "file_type": "document",
       "source_file": "docs/agent-runbook.md",
-      "source_location": "L12",
+      "source_location": "L13",
       "id": "docs_agent_runbook_genel_is_akisi",
       "community": 34,
       "norm_label": "genel is akisi"
@@ -15739,7 +15361,7 @@
       "label": "Graphify Kurulum ve Dogrulama",
       "file_type": "document",
       "source_file": "docs/agent-runbook.md",
-      "source_location": "L23",
+      "source_location": "L24",
       "id": "docs_agent_runbook_graphify_kurulum_ve_dogrulama",
       "community": 34,
       "norm_label": "graphify kurulum ve dogrulama"
@@ -15748,7 +15370,7 @@
       "label": "Graphify Hook Kurulumu",
       "file_type": "document",
       "source_file": "docs/agent-runbook.md",
-      "source_location": "L32",
+      "source_location": "L33",
       "id": "docs_agent_runbook_graphify_hook_kurulumu",
       "community": 34,
       "norm_label": "graphify hook kurulumu"
@@ -15757,7 +15379,7 @@
       "label": "GitHub Ilk Push Sureci",
       "file_type": "document",
       "source_file": "docs/agent-runbook.md",
-      "source_location": "L40",
+      "source_location": "L41",
       "id": "docs_agent_runbook_github_ilk_push_sureci",
       "community": 34,
       "norm_label": "github ilk push sureci"
@@ -15766,7 +15388,7 @@
       "label": "GitHub Ilk Push Sorunlari",
       "file_type": "document",
       "source_file": "docs/agent-runbook.md",
-      "source_location": "L55",
+      "source_location": "L58",
       "id": "docs_agent_runbook_github_ilk_push_sorunlari",
       "community": 34,
       "norm_label": "github ilk push sorunlari"
@@ -15775,7 +15397,7 @@
       "label": "Windows Izin ve Escalation Notlari",
       "file_type": "document",
       "source_file": "docs/agent-runbook.md",
-      "source_location": "L65",
+      "source_location": "L68",
       "id": "docs_agent_runbook_windows_izin_ve_escalation_notlari",
       "community": 34,
       "norm_label": "windows izin ve escalation notlari"
@@ -15784,7 +15406,7 @@
       "label": "Runbook Guncelleme Kriteri",
       "file_type": "document",
       "source_file": "docs/agent-runbook.md",
-      "source_location": "L73",
+      "source_location": "L76",
       "id": "docs_agent_runbook_runbook_guncelleme_kriteri",
       "community": 34,
       "norm_label": "runbook guncelleme kriteri"
@@ -15851,6 +15473,483 @@
       "id": "docs_color_catalog_rules",
       "community": 43,
       "norm_label": "rules"
+    },
+    {
+      "label": "sora",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L19",
+      "community": 14,
+      "norm_label": "sora",
+      "id": "app_layout_sora"
+    },
+    {
+      "label": "dmSans",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L25",
+      "community": 14,
+      "norm_label": "dmsans",
+      "id": "app_layout_dmsans"
+    },
+    {
+      "label": "AgencyTabs.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L1",
+      "community": 20,
+      "norm_label": "agencytabs.tsx",
+      "id": "app_ajans_agencytabs_tsx"
+    },
+    {
+      "label": "AgencyTabs",
+      "file_type": "code",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L20",
+      "community": 20,
+      "norm_label": "agencytabs",
+      "id": "ajans_agencytabs_agencytabs"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/layout.tsx",
+      "source_location": "L1",
+      "community": 20,
+      "norm_label": "layout.tsx",
+      "id": "app_ajans_layout_tsx"
+    },
+    {
+      "label": "Layout()",
+      "file_type": "code",
+      "source_file": "app/ajans/layout.tsx",
+      "source_location": "L4",
+      "community": 20,
+      "norm_label": "layout()",
+      "id": "ajans_layout_layout"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L1",
+      "community": 18,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_page_tsx"
+    },
+    {
+      "label": "Tone",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L36",
+      "community": 18,
+      "norm_label": "tone",
+      "id": "ajans_page_tone"
+    },
+    {
+      "label": "IconComponent",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L38",
+      "community": 18,
+      "norm_label": "iconcomponent",
+      "id": "ajans_page_iconcomponent"
+    },
+    {
+      "label": "Kpi",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L40",
+      "community": 18,
+      "norm_label": "kpi",
+      "id": "ajans_page_kpi"
+    },
+    {
+      "label": "ChannelRow",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L49",
+      "community": 18,
+      "norm_label": "channelrow",
+      "id": "ajans_page_channelrow"
+    },
+    {
+      "label": "RadarItem",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L62",
+      "community": 18,
+      "norm_label": "radaritem",
+      "id": "ajans_page_radaritem"
+    },
+    {
+      "label": "CustomerHealth",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L70",
+      "community": 18,
+      "norm_label": "customerhealth",
+      "id": "ajans_page_customerhealth"
+    },
+    {
+      "label": "FunnelStage",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L80",
+      "community": 18,
+      "norm_label": "funnelstage",
+      "id": "ajans_page_funnelstage"
+    },
+    {
+      "label": "OperationItem",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L89",
+      "community": 18,
+      "norm_label": "operationitem",
+      "id": "ajans_page_operationitem"
+    },
+    {
+      "label": "FinanceItem",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L98",
+      "community": 18,
+      "norm_label": "financeitem",
+      "id": "ajans_page_financeitem"
+    },
+    {
+      "label": "DecisionItem",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L105",
+      "community": 18,
+      "norm_label": "decisionitem",
+      "id": "ajans_page_decisionitem"
+    },
+    {
+      "label": "kpis",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L113",
+      "community": 18,
+      "norm_label": "kpis",
+      "id": "ajans_page_kpis"
+    },
+    {
+      "label": "channels",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L124",
+      "community": 18,
+      "norm_label": "channels",
+      "id": "ajans_page_channels"
+    },
+    {
+      "label": "radarItems",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L133",
+      "community": 18,
+      "norm_label": "radaritems",
+      "id": "ajans_page_radaritems"
+    },
+    {
+      "label": "customers",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L140",
+      "community": 18,
+      "norm_label": "customers",
+      "id": "ajans_page_customers"
+    },
+    {
+      "label": "funnelStages",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L147",
+      "community": 18,
+      "norm_label": "funnelstages",
+      "id": "ajans_page_funnelstages"
+    },
+    {
+      "label": "operations",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L155",
+      "community": 18,
+      "norm_label": "operations",
+      "id": "ajans_page_operations"
+    },
+    {
+      "label": "finance",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L162",
+      "community": 18,
+      "norm_label": "finance",
+      "id": "ajans_page_finance"
+    },
+    {
+      "label": "decisions",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L169",
+      "community": 18,
+      "norm_label": "decisions",
+      "id": "ajans_page_decisions"
+    },
+    {
+      "label": "TableShell()",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L176",
+      "community": 18,
+      "norm_label": "tableshell()",
+      "id": "ajans_page_tableshell"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L180",
+      "community": 18,
+      "norm_label": "page()",
+      "id": "ajans_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L1",
+      "community": 15,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_ayarlar_page_tsx"
+    },
+    {
+      "label": "toggleListItem()",
+      "file_type": "code",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L7",
+      "community": 15,
+      "norm_label": "togglelistitem()",
+      "id": "app_ajans_ayarlar_page_tsx_ayarlar_page_togglelistitem"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L13",
+      "community": 15,
+      "norm_label": "page()",
+      "id": "app_ajans_ayarlar_page_tsx_ayarlar_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/funnel/page.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_funnel_page_tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/funnel/page.tsx",
+      "source_location": "L4",
+      "community": 6,
+      "norm_label": "page()",
+      "id": "app_ajans_funnel_page_tsx_funnel_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/google/page.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_google_page_tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/google/page.tsx",
+      "source_location": "L4",
+      "community": 3,
+      "norm_label": "page()",
+      "id": "app_ajans_google_page_tsx_google_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/mail/page.tsx",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_mail_page_tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/mail/page.tsx",
+      "source_location": "L3",
+      "community": 7,
+      "norm_label": "page()",
+      "id": "app_ajans_mail_page_tsx_mail_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/meta/page.tsx",
+      "source_location": "L1",
+      "community": 40,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_meta_page_tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/meta/page.tsx",
+      "source_location": "L3",
+      "community": 40,
+      "norm_label": "page()",
+      "id": "app_ajans_meta_page_tsx_meta_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/plan/page.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_plan_page_tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/plan/page.tsx",
+      "source_location": "L3",
+      "community": 1,
+      "norm_label": "page()",
+      "id": "app_ajans_plan_page_tsx_plan_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/sosyal-medya/page.tsx",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_sosyal_medya_page_tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/sosyal-medya/page.tsx",
+      "source_location": "L3",
+      "community": 5,
+      "norm_label": "page()",
+      "id": "app_ajans_sosyal_medya_page_tsx_sosyal_medya_page_page"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/ajans/tiktok/page.tsx",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "page.tsx",
+      "id": "app_ajans_tiktok_page_tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/ajans/tiktok/page.tsx",
+      "source_location": "L3",
+      "community": 4,
+      "norm_label": "page()",
+      "id": "app_ajans_tiktok_page_tsx_tiktok_page_page"
+    },
+    {
+      "label": "toggleListItem()",
+      "file_type": "code",
+      "source_file": "app/atolye/ayarlar/page.tsx",
+      "source_location": "L7",
+      "community": 15,
+      "norm_label": "togglelistitem()",
+      "id": "app_atolye_ayarlar_page_tsx_ayarlar_page_togglelistitem"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/atolye/ayarlar/page.tsx",
+      "source_location": "L13",
+      "community": 15,
+      "norm_label": "page()",
+      "id": "app_atolye_ayarlar_page_tsx_ayarlar_page_page"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/atolye/funnel/page.tsx",
+      "source_location": "L4",
+      "community": 6,
+      "norm_label": "page()",
+      "id": "app_atolye_funnel_page_tsx_funnel_page_page"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/atolye/google/page.tsx",
+      "source_location": "L4",
+      "community": 3,
+      "norm_label": "page()",
+      "id": "app_atolye_google_page_tsx_google_page_page"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/atolye/mail/page.tsx",
+      "source_location": "L3",
+      "community": 7,
+      "norm_label": "page()",
+      "id": "app_atolye_mail_page_tsx_mail_page_page"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/atolye/meta/page.tsx",
+      "source_location": "L3",
+      "community": 40,
+      "norm_label": "page()",
+      "id": "app_atolye_meta_page_tsx_meta_page_page"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/atolye/sosyal-medya/page.tsx",
+      "source_location": "L3",
+      "community": 5,
+      "norm_label": "page()",
+      "id": "app_atolye_sosyal_medya_page_tsx_sosyal_medya_page_page"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/atolye/tiktok/page.tsx",
+      "source_location": "L3",
+      "community": 4,
+      "norm_label": "page()",
+      "id": "app_atolye_tiktok_page_tsx_tiktok_page_page"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/plan/page.tsx",
+      "source_location": "L3",
+      "community": 33,
+      "norm_label": "page()",
+      "id": "app_plan_page_tsx_plan_page_page"
     }
   ],
   "links": [
@@ -16696,6 +16795,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/layout.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_caveat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
       "source_location": "L13",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -16706,21 +16815,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/layout.tsx",
-      "source_location": "L19",
+      "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_layout_tsx",
-      "target": "app_layout_sora"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/layout.tsx",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_layout_tsx",
-      "target": "app_layout_dmsans"
+      "target": "app_layout_inter",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16741,6 +16840,26 @@
       "confidence_score": 1.0,
       "source": "app_layout_tsx",
       "target": "app_layout_rootlayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_sora"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_dmsans"
     },
     {
       "relation": "imports_from",
@@ -16773,866 +16892,6 @@
       "confidence_score": 1.0,
       "source": "app_page_tsx",
       "target": "app_page_dashboardpage"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "app_components_navigation_collapsiblesectionnav_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "navigation_collapsiblesectionnav_collapsiblesectionnav"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "navigation_collapsiblesectionnav_sectionnavitem"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "components_icons_brandicons_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "icons_brandicons_googlelogomono"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "icons_brandicons_metalogomono"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "icons_brandicons_tiktoklogomono"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/AgencyTabs.tsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_agencytabs_tsx",
-      "target": "ajans_agencytabs_agencytabs"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/layout.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_layout_tsx",
-      "target": "app_ajans_agencytabs_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/layout.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_layout_tsx",
-      "target": "ajans_agencytabs_agencytabs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/layout.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_layout_tsx",
-      "target": "ajans_layout_layout"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "app_components_common_index_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "components_icons_brandicons_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "icons_brandicons_googlelogomono"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "icons_brandicons_metalogomono"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "icons_brandicons_tiktoklogomono"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_tone"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_iconcomponent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_kpi"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_channelrow"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_radaritem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L70",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_customerhealth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_funnelstage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L89",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_operationitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L98",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_financeitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L105",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_decisionitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L113",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_kpis"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L124",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_channels"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L133",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_radaritems"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L140",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_customers"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L147",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_funnelstages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L155",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_operations"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L162",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_finance"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L169",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_decisions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L176",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_tableshell"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L180",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "ajans_page_page"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_decisionsummary"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_kpicard"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_metrictile"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_sectiontitle"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_statusbadge"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_gettintclassname"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_gettoneclassname"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/page.tsx",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_page_tsx",
-      "target": "common_productui_producttone"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "app_components_settings_settingsview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "settings_settingsview_settingsview"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "app_musteriler_slug_data_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "slug_data_currencies"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "slug_data_services"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "slug_data_currency"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "app_ajans_ayarlar_page_tsx_ayarlar_page_togglelistitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/ayarlar/page.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_ayarlar_page_tsx",
-      "target": "app_ajans_ayarlar_page_tsx_ayarlar_page_page"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/funnel/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_funnel_page_tsx",
-      "target": "app_components_funnel_data_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/funnel/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_funnel_page_tsx",
-      "target": "funnel_data_agencyfunneldata"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/funnel/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_funnel_page_tsx",
-      "target": "app_components_funnel_funnelview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/funnel/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_funnel_page_tsx",
-      "target": "funnel_funnelview_funnelview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/funnel/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_funnel_page_tsx",
-      "target": "app_ajans_funnel_page_tsx_funnel_page_page"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/google/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_google_page_tsx",
-      "target": "app_components_google_ads_googleadsview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/google/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_google_page_tsx",
-      "target": "google_ads_googleadsview_googleadsview"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/google/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_google_page_tsx",
-      "target": "app_components_google_ads_data_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/google/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_google_page_tsx",
-      "target": "google_ads_data_agencygoogleadsdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/google/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_google_page_tsx",
-      "target": "app_ajans_google_page_tsx_google_page_page"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/mail/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_mail_page_tsx",
-      "target": "app_components_mail_marketing_mailmarketingview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/mail/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_mail_page_tsx",
-      "target": "mail_marketing_mailmarketingview_mailmarketingview"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/mail/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_mail_page_tsx",
-      "target": "mail_marketing_mailmarketingview_agencymailmarketingdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/mail/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_mail_page_tsx",
-      "target": "app_ajans_mail_page_tsx_mail_page_page"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/meta/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_meta_page_tsx",
-      "target": "app_components_meta_ads_metaadsview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/meta/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_meta_page_tsx",
-      "target": "meta_ads_metaadsview_metaadsview"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/meta/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_meta_page_tsx",
-      "target": "meta_ads_metaadsview_agencymetaadsdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/meta/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_meta_page_tsx",
-      "target": "app_ajans_meta_page_tsx_meta_page_page"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/plan/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_plan_page_tsx",
-      "target": "app_components_canvas_pannablecanvasview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/plan/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_plan_page_tsx",
-      "target": "canvas_pannablecanvasview_pannablecanvasview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/plan/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_plan_page_tsx",
-      "target": "app_ajans_plan_page_tsx_plan_page_page"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/sosyal-medya/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_sosyal_medya_page_tsx",
-      "target": "app_components_social_media_socialmediaview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/sosyal-medya/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_sosyal_medya_page_tsx",
-      "target": "social_media_socialmediaview_socialmediaview"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/sosyal-medya/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_sosyal_medya_page_tsx",
-      "target": "social_media_socialmediaview_agencysocialmediadata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/sosyal-medya/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_sosyal_medya_page_tsx",
-      "target": "app_ajans_sosyal_medya_page_tsx_sosyal_medya_page_page"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/tiktok/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_tiktok_page_tsx",
-      "target": "app_components_tiktok_ads_tiktokadsview_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/tiktok/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_tiktok_page_tsx",
-      "target": "tiktok_ads_tiktokadsview_tiktokadsview"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/tiktok/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_tiktok_page_tsx",
-      "target": "tiktok_ads_tiktokadsview_agencytiktokadsdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/ajans/tiktok/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_ajans_tiktok_page_tsx",
-      "target": "app_ajans_tiktok_page_tsx_tiktok_page_page"
     },
     {
       "relation": "imports_from",
@@ -17837,6 +17096,26 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_atolye_ayarlar_page_tsx",
+      "target": "ayarlar_page_togglelistitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/ayarlar/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_ayarlar_page_tsx",
+      "target": "ayarlar_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/ayarlar/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_ayarlar_page_tsx",
       "target": "app_atolye_ayarlar_page_tsx_ayarlar_page_togglelistitem"
     },
     {
@@ -17901,6 +17180,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_atolye_funnel_page_tsx",
+      "target": "funnel_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/funnel/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_funnel_page_tsx",
       "target": "app_atolye_funnel_page_tsx_funnel_page_page"
     },
     {
@@ -17955,6 +17244,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_atolye_google_page_tsx",
+      "target": "google_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/google/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_google_page_tsx",
       "target": "app_atolye_google_page_tsx_google_page_page"
     },
     {
@@ -17989,6 +17288,16 @@
       "confidence_score": 1.0,
       "source": "app_atolye_mail_page_tsx",
       "target": "mail_marketing_mailmarketingview_agencymailmarketingdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/mail/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_mail_page_tsx",
+      "target": "mail_page_page"
     },
     {
       "relation": "contains",
@@ -18041,6 +17350,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_atolye_meta_page_tsx",
+      "target": "meta_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/meta/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_meta_page_tsx",
       "target": "app_atolye_meta_page_tsx_meta_page_page"
     },
     {
@@ -18084,6 +17403,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_atolye_sosyal_medya_page_tsx",
+      "target": "sosyal_medya_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/sosyal-medya/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_sosyal_medya_page_tsx",
       "target": "app_atolye_sosyal_medya_page_tsx_sosyal_medya_page_page"
     },
     {
@@ -18118,6 +17447,16 @@
       "confidence_score": 1.0,
       "source": "app_atolye_tiktok_page_tsx",
       "target": "tiktok_ads_tiktokadsview_agencytiktokadsdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/atolye/tiktok/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_atolye_tiktok_page_tsx",
+      "target": "tiktok_page_page"
     },
     {
       "relation": "contains",
@@ -22310,6 +21649,17 @@
       "target": "app_musteriler_slug_data_ts"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
+      "target": "app_musteriler_slug_data_ts"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -22368,6 +21718,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
+      "target": "slug_data_services"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "app/musteriler/[slug]/page.tsx",
       "source_location": "L12",
       "weight": 1.0,
@@ -22384,6 +21745,17 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_components_settings_settingsview_tsx",
+      "target": "slug_data_currencies"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
       "target": "slug_data_currencies"
     },
     {
@@ -22417,6 +21789,17 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_components_settings_settingsview_tsx",
+      "target": "slug_data_currency"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
       "target": "slug_data_currency"
     },
     {
@@ -23674,6 +23057,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_plan_page_tsx",
+      "target": "plan_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/plan/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_plan_page_tsx",
       "target": "app_plan_page_tsx_plan_page_page"
     },
     {
@@ -23823,6 +23216,17 @@
       "target": "app_components_canvas_pannablecanvasview_tsx"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/plan/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_plan_page_tsx",
+      "target": "app_components_canvas_pannablecanvasview_tsx"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -23831,6 +23235,17 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_components_pusula_pusulacanvasview_tsx",
+      "target": "canvas_pannablecanvasview_pannablecanvasview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/plan/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_plan_page_tsx",
       "target": "canvas_pannablecanvasview_pannablecanvasview"
     },
     {
@@ -24340,6 +23755,17 @@
       "target": "app_components_common_index_ts"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "app_components_common_index_ts"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/_components/common/ProductUI.tsx",
@@ -24709,6 +24135,17 @@
       "target": "common_productui_producttone"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "common_productui_producttone"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -24761,6 +24198,17 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "common_productui_kpicard",
+      "target": "common_productui_gettoneclassname"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
       "target": "common_productui_gettoneclassname"
     },
     {
@@ -24783,6 +24231,17 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_components_dashboard_dashboardpageclient_tsx",
+      "target": "common_productui_gettintclassname"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
       "target": "common_productui_gettintclassname"
     },
     {
@@ -24910,6 +24369,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "common_productui_sectiontitle"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "app/_components/plan/PlanDraftCard.tsx",
       "source_location": "L4",
       "weight": 1.0,
@@ -24998,12 +24468,56 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "common_productui_statusbadge"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "common_productui_metrictile"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "app/_components/plan/PlanPageView.tsx",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_components_plan_planpageview_tsx",
       "target": "common_productui_kpicard"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "common_productui_kpicard"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "common_productui_decisionsummary"
     },
     {
       "relation": "imports_from",
@@ -25705,6 +25219,28 @@
       "target": "funnel_data_customerfunneldata"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/funnel/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_funnel_page_tsx",
+      "target": "app_components_funnel_data_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/funnel/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_funnel_page_tsx",
+      "target": "funnel_data_agencyfunneldata"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/_components/funnel/FunnelView.tsx",
@@ -25995,6 +25531,17 @@
       "target": "funnel_funnelview_funnelview"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/funnel/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_funnel_page_tsx",
+      "target": "app_components_funnel_funnelview_tsx"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -26004,6 +25551,17 @@
       "confidence_score": 1.0,
       "source": "funnel_funnelview_statusbadge",
       "target": "funnel_funnelview_gettoneclass"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/funnel/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_funnel_page_tsx",
+      "target": "funnel_funnelview_funnelview"
     },
     {
       "relation": "contains",
@@ -26207,6 +25765,17 @@
       "target": "app_components_google_ads_data_ts"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/google/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_google_page_tsx",
+      "target": "app_components_google_ads_data_ts"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -26260,6 +25829,17 @@
       "confidence_score": 1.0,
       "source": "app_components_google_ads_googleadsview_tsx",
       "target": "google_ads_data_googlesections"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/google/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_google_page_tsx",
+      "target": "google_ads_data_agencygoogleadsdata"
     },
     {
       "relation": "imports_from",
@@ -26494,6 +26074,17 @@
       "target": "google_ads_googleadsview_badge"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/google/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_google_page_tsx",
+      "target": "app_components_google_ads_googleadsview_tsx"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -26536,6 +26127,17 @@
       "confidence_score": 1.0,
       "source": "google_ads_googleadsview_badge",
       "target": "google_ads_googleadsview_gettoneclass"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/google/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_google_page_tsx",
+      "target": "google_ads_googleadsview_googleadsview"
     },
     {
       "relation": "contains",
@@ -26898,6 +26500,17 @@
       "target": "mail_marketing_mailmarketingview_customermailmarketingdata"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/mail/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_mail_page_tsx",
+      "target": "app_components_mail_marketing_mailmarketingview_tsx"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -26907,6 +26520,28 @@
       "confidence_score": 1.0,
       "source": "mail_marketing_mailmarketingview_statusbadge",
       "target": "mail_marketing_mailmarketingview_gettoneclass"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/mail/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_mail_page_tsx",
+      "target": "mail_marketing_mailmarketingview_mailmarketingview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/mail/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_mail_page_tsx",
+      "target": "mail_marketing_mailmarketingview_agencymailmarketingdata"
     },
     {
       "relation": "imports_from",
@@ -27341,6 +26976,17 @@
       "target": "meta_ads_metaadsview_customermetaadsdata"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/meta/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_meta_page_tsx",
+      "target": "app_components_meta_ads_metaadsview_tsx"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -27350,6 +26996,28 @@
       "confidence_score": 1.0,
       "source": "meta_ads_metaadsview_statusbadge",
       "target": "meta_ads_metaadsview_gettoneclass"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/meta/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_meta_page_tsx",
+      "target": "meta_ads_metaadsview_metaadsview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/meta/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_meta_page_tsx",
+      "target": "meta_ads_metaadsview_agencymetaadsdata"
     },
     {
       "relation": "contains",
@@ -27439,6 +27107,39 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_components_navigation_collapsiblesectionnav_tsx",
+      "target": "navigation_collapsiblesectionnav_collapsiblesectionnav"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
+      "target": "app_components_navigation_collapsiblesectionnav_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
+      "target": "navigation_collapsiblesectionnav_sectionnavitem"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
       "target": "navigation_collapsiblesectionnav_collapsiblesectionnav"
     },
     {
@@ -28430,6 +28131,28 @@
       "target": "settings_settingsview_settingsview"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
+      "target": "app_components_settings_settingsview_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
+      "target": "settings_settingsview_settingsview"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/_components/social-media/SocialMediaView.tsx",
@@ -28760,6 +28483,17 @@
       "target": "social_media_socialmediaview_customersocialmediadata"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/sosyal-medya/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_sosyal_medya_page_tsx",
+      "target": "app_components_social_media_socialmediaview_tsx"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -28769,6 +28503,28 @@
       "confidence_score": 1.0,
       "source": "social_media_socialmediaview_statusbadge",
       "target": "social_media_socialmediaview_gettoneclass"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/sosyal-medya/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_sosyal_medya_page_tsx",
+      "target": "social_media_socialmediaview_socialmediaview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/sosyal-medya/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_sosyal_medya_page_tsx",
+      "target": "social_media_socialmediaview_agencysocialmediadata"
     },
     {
       "relation": "imports_from",
@@ -29183,6 +28939,28 @@
       "target": "tiktok_ads_tiktokadsview_settingspanel"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/tiktok/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_tiktok_page_tsx",
+      "target": "app_components_tiktok_ads_tiktokadsview_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/tiktok/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_tiktok_page_tsx",
+      "target": "tiktok_ads_tiktokadsview_agencytiktokadsdata"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -29203,6 +28981,17 @@
       "confidence_score": 1.0,
       "source": "tiktok_ads_tiktokadsview_badge",
       "target": "tiktok_ads_tiktokadsview_gettoneclass"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/tiktok/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_tiktok_page_tsx",
+      "target": "tiktok_ads_tiktokadsview_tiktokadsview"
     },
     {
       "relation": "imports_from",
@@ -29800,6 +29589,94 @@
       "confidence_score": 1.0,
       "source": "components_icons_brandicons_tsx",
       "target": "icons_brandicons_getbrandlogo"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
+      "target": "components_icons_brandicons_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "components_icons_brandicons_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
+      "target": "icons_brandicons_metalogomono"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "icons_brandicons_metalogomono"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
+      "target": "icons_brandicons_googlelogomono"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "icons_brandicons_googlelogomono"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
+      "target": "icons_brandicons_tiktoklogomono"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "icons_brandicons_tiktoklogomono"
     },
     {
       "relation": "contains",
@@ -38387,9 +38264,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_md",
-      "target": "docs_agent_runbook_agent_runbook",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_agent_runbook"
     },
     {
       "relation": "contains",
@@ -38397,9 +38274,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_kullanim_kurallari",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_kullanim_kurallari"
     },
     {
       "relation": "contains",
@@ -38407,9 +38284,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_genel_is_akisi",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_genel_is_akisi"
     },
     {
       "relation": "contains",
@@ -38417,9 +38294,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_graphify_kurulum_ve_dogrulama",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_graphify_kurulum_ve_dogrulama"
     },
     {
       "relation": "contains",
@@ -38427,9 +38304,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_graphify_hook_kurulumu",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_graphify_hook_kurulumu"
     },
     {
       "relation": "contains",
@@ -38437,9 +38314,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_github_ilk_push_sureci",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_github_ilk_push_sureci"
     },
     {
       "relation": "contains",
@@ -38447,9 +38324,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_github_ilk_push_sorunlari",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_github_ilk_push_sorunlari"
     },
     {
       "relation": "contains",
@@ -38457,9 +38334,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_windows_izin_ve_escalation_notlari",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_windows_izin_ve_escalation_notlari"
     },
     {
       "relation": "contains",
@@ -38467,9 +38344,9 @@
       "source_file": "docs/agent-runbook.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_agent_runbook_agent_runbook",
-      "target": "docs_agent_runbook_runbook_guncelleme_kriteri",
-      "confidence_score": 1.0
+      "target": "docs_agent_runbook_runbook_guncelleme_kriteri"
     },
     {
       "relation": "contains",
@@ -38530,8 +38407,340 @@
       "confidence_score": 1.0,
       "source": "docs_color_catalog_piaq_color_catalog",
       "target": "docs_color_catalog_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/AgencyTabs.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_agencytabs_tsx",
+      "target": "ajans_agencytabs_agencytabs"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_layout_tsx",
+      "target": "app_ajans_agencytabs_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_layout_tsx",
+      "target": "ajans_agencytabs_agencytabs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_layout_tsx",
+      "target": "ajans_layout_layout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_tone"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_iconcomponent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_kpi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_channelrow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_radaritem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_customerhealth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_funnelstage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_operationitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_financeitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_decisionitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_kpis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_channels"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_radaritems"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L140",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_customers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_funnelstages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L155",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_operations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_finance"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_decisions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_tableshell"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/page.tsx",
+      "source_location": "L180",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_page_tsx",
+      "target": "ajans_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
+      "target": "app_ajans_ayarlar_page_tsx_ayarlar_page_togglelistitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/ayarlar/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_ayarlar_page_tsx",
+      "target": "app_ajans_ayarlar_page_tsx_ayarlar_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/funnel/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_funnel_page_tsx",
+      "target": "app_ajans_funnel_page_tsx_funnel_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/google/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_google_page_tsx",
+      "target": "app_ajans_google_page_tsx_google_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/mail/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_mail_page_tsx",
+      "target": "app_ajans_mail_page_tsx_mail_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/meta/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_meta_page_tsx",
+      "target": "app_ajans_meta_page_tsx_meta_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/plan/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_plan_page_tsx",
+      "target": "app_ajans_plan_page_tsx_plan_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/sosyal-medya/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_sosyal_medya_page_tsx",
+      "target": "app_ajans_sosyal_medya_page_tsx_sosyal_medya_page_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/ajans/tiktok/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_ajans_tiktok_page_tsx",
+      "target": "app_ajans_tiktok_page_tsx_tiktok_page_page"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "96d23ef3963e70bc299f2df9e51fb45d3dbe1f03"
+  "built_at_commit": "2dbbd2472e0d04063c470702cb6ce063665e67b8"
 }

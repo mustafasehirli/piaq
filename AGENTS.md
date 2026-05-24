@@ -180,7 +180,6 @@ Onemli kararlar:
 - Kullanim:
   - `app/_components/pusula/PusulaCanvasView.tsx`
   - `app/musteriler/[slug]/PlanTab.tsx`
-  - `app/ajans/plan/page.tsx` gecici uyumluluk route'u
 - Amac: Pusula tahtasi ve musteri planlari icin bos, noktali, mouse ile suruklenerek pan yapilabilen canvas alani saglamak.
 - Canvas icinde sol ustte sabit duran bos menu paneli vardir; canvas kaydirilsa bile menu paneli konumunu korur.
 - Su an canvas uzerinde veri kaydi, DB, API, drag/drop node sistemi veya real-time sync yoktur.
@@ -327,7 +326,7 @@ Onemli kararlar:
   - `agencyFunnelData`: ajansin kendi funnel verisi.
   - `customerFunnelData`: secili musterinin funnel verisi.
 - Ortak canvas altyapisi: `app/_components/canvas/PannableCanvasView.tsx`
-  - Pusula Tahtasi, musteri Plan sekmesi ve gecici `/ajans/plan` uyumluluk sayfasi ayni bos canvas altyapisini kullanir.
+  - Pusula Tahtasi ve musteri Plan sekmesi ayni bos canvas altyapisini kullanir.
   - Canvas mouse/pointer drag ile pan yapar; scrollbar ile ana kullanim hedeflenmez.
   - Canvas icindeki sabit menu paneli canvas pan hareketinden etkilenmez.
 - Dashboard mock data: `lib/data/dashboard.ts`
@@ -441,6 +440,7 @@ Sync stratejisi:
 - Manuel editlerde `apply_patch` kullan.
 - Dosya olustururken ve degistirirken kapsam disi refactor yapma.
 - Tekrarlayan ajan operasyonlari ve daha once cozulmus kurulum/push/hook durumlari icin `docs/agent-runbook.md` takip edilir.
+- GitHub'a push islemi yalnizca kullanici acikca "push et", "GitHub'a gonder" veya benzeri bir talimat verdiginde yapilir; commit sonrasi otomatik push yapma.
 
 ---
 

@@ -8,6 +8,7 @@ Bu dosya, ajanlarin projede tekrar eden operasyonlarda ayni engellere takilmamas
 - Secret, token, `.env.local` icerigi, kisisel erisim bilgisi veya gecici hata detaylari yazilmaz.
 - Kalici davranis kurali gerekiyorsa `AGENTS.md` kisa tutulur, detay burada tutulur.
 - Kod veya dokuman degisikliginden sonra ilgili dogrulama komutlari calistirilir ve sonuc not edilir.
+- GitHub'a push, kullanici acikca talimat vermediyse yapilmaz; commit almak push izni anlamina gelmez.
 
 ## Genel Is Akisi
 
@@ -39,6 +40,8 @@ Bu dosya, ajanlarin projede tekrar eden operasyonlarda ayni engellere takilmamas
 
 ## GitHub Ilk Push Sureci
 
+Bu surec yalnizca kullanici acikca GitHub'a gondermeyi veya push etmeyi istediginde uygulanir. Kullanici sadece dosya degisikligi, commit veya dokuman guncellemesi istediyse `git push` calistirma.
+
 | Adim | Komut | Not |
 | --- | --- | --- |
 | 1 | `git status -sb` | Kapsami gormeden stage/push yapma. |
@@ -49,7 +52,7 @@ Bu dosya, ajanlarin projede tekrar eden operasyonlarda ayni engellere takilmamas
 | 6 | `git commit -m "Initial Piaq project"` | Ilk commit veya uygun kisa mesaj. |
 | 7 | `git remote add origin <repo-url>` | Remote yoksa ekle; varsa `git remote -v` ile dogrula. |
 | 8 | `git ls-remote --heads origin` | Uzak repo bos mu, mevcut branch var mi kontrol et. |
-| 9 | `git push -u origin main` | Repo bos ise normal push yeterli; force push kullanma. |
+| 9 | `git push -u origin main` | Sadece kullanici push talimati verdiyse calistir; repo bos ise normal push yeterli, force push kullanma. |
 | 10 | `git status -sb` ve `git ls-remote --heads origin` | Yerel branch remote'u track ediyor ve uzak `main` olustu mu dogrula. |
 
 ## GitHub Ilk Push Sorunlari

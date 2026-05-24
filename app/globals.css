@@ -99,10 +99,15 @@
   --shadow-brand-md: 0 14px 28px rgb(240 83 58 / 0.24);
 
   /* Font */
-  --font-sans: var(--font-dm-sans), "Aptos", "Segoe UI Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-archivo-fallback: "Arial", "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
+  --font-caveat-fallback: "Comic Sans MS", "Segoe Print", cursive;
+  --font-geist-fallback: "Aptos", "Segoe UI Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-inter-fallback: "Aptos", "Segoe UI Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), var(--font-inter-fallback);
   --font-numeric: var(--font-geist), "Aptos", "Segoe UI Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-editorial: var(--font-archivo), "Arial", "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
+  --font-editorial: var(--font-archivo), var(--font-archivo-fallback);
   --font-display: var(--font-editorial);
+  --font-handwritten: var(--font-caveat), var(--font-caveat-fallback);
 
   --background: var(--bg);
   --foreground: var(--text-primary);

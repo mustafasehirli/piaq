@@ -1,16 +1,16 @@
 # Graph Report - piaq  (2026-05-24)
 
 ## Corpus Check
-- 139 files · ~133,024 words
+- 128 files · ~134,186 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1761 nodes · 2209 edges · 54 communities (48 shown, 6 thin omitted)
+- 1772 nodes · 2220 edges · 60 communities (52 shown, 8 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `96d23ef3`
+- Built from commit: `2dbbd247`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -53,16 +53,22 @@
 - [[_COMMUNITY_Community 35|Community 35]]
 - [[_COMMUNITY_Community 36|Community 36]]
 - [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
 - [[_COMMUNITY_Community 39|Community 39]]
+- [[_COMMUNITY_Community 40|Community 40]]
 - [[_COMMUNITY_Community 41|Community 41]]
 - [[_COMMUNITY_Community 42|Community 42]]
 - [[_COMMUNITY_Community 43|Community 43]]
+- [[_COMMUNITY_Community 44|Community 44]]
 - [[_COMMUNITY_Community 46|Community 46]]
 - [[_COMMUNITY_Community 47|Community 47]]
 - [[_COMMUNITY_Community 52|Community 52]]
 - [[_COMMUNITY_Community 53|Community 53]]
 - [[_COMMUNITY_Community 54|Community 54]]
 - [[_COMMUNITY_Community 55|Community 55]]
+- [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 58|Community 58]]
+- [[_COMMUNITY_Community 59|Community 59]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `StatusBadge()` - 24 edges
@@ -88,22 +94,22 @@
 - `ServiceBadge()` --calls--> `getChannelTheme()`  [EXTRACTED]
   app/_components/dashboard/DashboardSections.tsx → lib/data/channels.ts
 
-## Communities (54 total, 6 thin omitted)
+## Communities (60 total, 8 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.00
 Nodes (661): │, │, │, │, │, │, │, ↓ (+653 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.06
-Nodes (35): PannableCanvasView(), PannableCanvasViewProps, initialPlanDrafts, initialPlanItems, PlanDraftCard(), PlanDraftCardProps, assigneeOptions, channelOptions (+27 more)
+Cohesion: 0.07
+Nodes (31): PannableCanvasView(), PannableCanvasViewProps, initialPlanDrafts, initialPlanItems, PlanDraftCard(), PlanDraftCardProps, PlanItemCard(), getPlanItemStatusMeta() (+23 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.05
-Nodes (37): AdItem, AdSet, agencyMetaAdsData, Audience, Campaign, Creative, customerMetaAdsData, DecisionItem (+29 more)
+Nodes (30): AdItem, AdSet, Audience, Campaign, Creative, DecisionItem, defaultSections, Kpi (+22 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.06
+Cohesion: 0.05
 Nodes (28): agencyGoogleAdsData, AlertItem, BudgetBidInsight, CampaignTypePerformance, ConversionInsight, customerGoogleAdsData, GoogleAdInsight, GoogleAdsData (+20 more)
 
 ### Community 4 - "Community 4"
@@ -147,11 +153,11 @@ Cohesion: 0.08
 Nodes (24): customerAlerts, customerBudgetUsage, customerChannelRoas, customerFunnelSteps, customerGeneralInfoCards, customerInvestmentControls, customerJourneyMap, customerPulseCards (+16 more)
 
 ### Community 14 - "Community 14"
-Cohesion: 0.13
-Nodes (18): AppShell(), archivo, dmSans, geist, metadata, sora, AppNavigation(), getWorkspaceById() (+10 more)
+Cohesion: 0.07
+Nodes (35): AppShell(), archivo, caveat, dmSans, geist, inter, metadata, sora (+27 more)
 
 ### Community 15 - "Community 15"
-Cohesion: 0.11
+Cohesion: 0.10
 Nodes (16): ConnectionItem, connectionItems, FieldProps, scopeCopy, SettingsScope, SettingsView(), SettingsViewProps, currencies (+8 more)
 
 ### Community 16 - "Community 16"
@@ -159,16 +165,16 @@ Cohesion: 0.13
 Nodes (14): PageProps, BOLUMLER, MOCK_DOKUMANLAR, MOCK_KLASORLER, PageProps, PageProps, cn(), Bolum (+6 more)
 
 ### Community 17 - "Community 17"
-Cohesion: 0.06
-Nodes (41): ValueText(), DashboardPageClient(), card, ChannelSparkline(), formatCurrencyValue(), getSpendDistribution(), getToneStyle(), numericText (+33 more)
+Cohesion: 0.13
+Nodes (18): card, getToneStyle(), numericText, acquisitionStats, AlertItem, attentionItems, ChannelSummary, customerRows (+10 more)
 
 ### Community 18 - "Community 18"
 Cohesion: 0.10
 Nodes (18): ChannelRow, channels, CustomerHealth, customers, DecisionItem, decisions, finance, FinanceItem (+10 more)
 
 ### Community 19 - "Community 19"
-Cohesion: 0.14
-Nodes (19): cx(), DecisionSummary(), DecisionSummaryProps, getToneClassName(), KpiCard(), KpiCardProps, MetricTile(), MetricTileProps (+11 more)
+Cohesion: 0.18
+Nodes (15): cx(), DecisionSummary(), DecisionSummaryProps, getToneClassName(), KpiCard(), KpiCardProps, MetricTile(), MetricTileProps (+7 more)
 
 ### Community 20 - "Community 20"
 Cohesion: 0.14
@@ -223,8 +229,8 @@ Cohesion: 0.12
 Nodes (13): Automation, automations, Kpi, kpis, Lead, leads, Meeting, meetings (+5 more)
 
 ### Community 33 - "Community 33"
-Cohesion: 0.13
-Nodes (14): isActive(), mainItems, NavEntry, NavIcon, NavItem, NavLink(), NavSeparator, NotificationCenterButton() (+6 more)
+Cohesion: 0.18
+Nodes (7): SectionTitle(), assigneeOptions, channelOptions, departmentOptions, PlanDraftDetailPanel(), PlanDraftDetailPanelProps, PlanPageView()
 
 ### Community 34 - "Community 34"
 Cohesion: 0.20
@@ -235,20 +241,24 @@ Cohesion: 0.14
 Nodes (4): getMetricClass(), parseMetricValue(), signalLabels, signalStyles
 
 ### Community 36 - "Community 36"
-Cohesion: 0.28
-Nodes (5): BoxArchiveIcon(), DepartmentOrgIcon(), iconMap, karaKutuItems, KaraKutuNav()
+Cohesion: 0.20
+Nodes (7): DepartmentTabs, BoxArchiveIcon(), DepartmentOrgIcon(), iconMap, karaKutuItems, KaraKutuNav(), SectionNavItem
 
 ### Community 37 - "Community 37"
 Cohesion: 0.18
 Nodes (12): CustomerDetailTab, customerProfiles, CustomerSlug, tabs, GeneralTab(), CustomerTabIcon, customerTabIcons, getCustomerProfileFromSlug() (+4 more)
 
-### Community 39 - "Community 39"
+### Community 38 - "Community 38"
 Cohesion: 0.15
-Nodes (7): DepartmentTabs, EkipTabs, CollapsibleSectionNav(), CollapsibleSectionNavProps, SectionNavIcon, SectionNavItem, sectionNavSubscribers
+Nodes (13): ServiceBadge(), ChannelTheme, channelThemes, defaultChannelTheme, getChannelBadgeClass(), getChannelTheme(), CustomerRow, customers (+5 more)
+
+### Community 39 - "Community 39"
+Cohesion: 0.18
+Nodes (5): EkipTabs, CollapsibleSectionNav(), CollapsibleSectionNavProps, SectionNavIcon, sectionNavSubscribers
 
 ### Community 41 - "Community 41"
-Cohesion: 0.22
-Nodes (6): audiences, Feature, features, heroMetrics, Metric, workflows
+Cohesion: 0.20
+Nodes (7): ValueText(), audiences, Feature, features, heroMetrics, Metric, workflows
 
 ### Community 42 - "Community 42"
 Cohesion: 0.22
@@ -258,25 +268,37 @@ Nodes (8): Ana Brand Renkleri, Kanal Renkleri, Layout Prensipleri, Piaq Mobil Uy
 Cohesion: 0.29
 Nodes (6): Brand, Channels, Neutrals, PIAQ Color Catalog, Rules, Status
 
+### Community 44 - "Community 44"
+Cohesion: 0.50
+Nodes (3): customerMetaAdsData, MetaTab(), MetaTabProps
+
+### Community 58 - "Community 58"
+Cohesion: 0.17
+Nodes (6): ChannelSparkline(), formatCurrencyValue(), sectionTitle, SpendDistributionSection(), StatCard(), TrendChart()
+
+### Community 59 - "Community 59"
+Cohesion: 0.40
+Nodes (3): DashboardPageClient(), getSpendDistribution(), getDashboardTimeRange()
+
 ## Knowledge Gaps
-- **1218 isolated node(s):** `$schema`, `style`, `rsc`, `tsx`, `config` (+1213 more)
+- **1220 isolated node(s):** `$schema`, `style`, `rsc`, `tsx`, `config` (+1215 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ValueText()` connect `Community 17` to `Community 32`, `Community 2`, `Community 3`, `Community 4`, `Community 5`, `Community 6`, `Community 7`, `Community 41`, `Community 15`, `Community 19`, `Community 21`, `Community 23`, `Community 24`, `Community 25`, `Community 26`, `Community 27`, `Community 29`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `StatusBadge()` connect `Community 19` to `Community 32`, `Community 1`, `Community 11`, `Community 15`, `Community 17`, `Community 18`, `Community 23`, `Community 24`, `Community 25`, `Community 26`, `Community 27`, `Community 29`, `Community 30`?**
+- **Why does `ValueText()` connect `Community 41` to `Community 32`, `Community 2`, `Community 3`, `Community 4`, `Community 5`, `Community 6`, `Community 7`, `Community 26`, `Community 15`, `Community 17`, `Community 19`, `Community 21`, `Community 23`, `Community 24`, `Community 25`, `Community 58`, `Community 27`, `Community 29`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+- **Why does `StatusBadge()` connect `Community 19` to `Community 32`, `Community 1`, `Community 33`, `Community 38`, `Community 11`, `Community 15`, `Community 17`, `Community 18`, `Community 23`, `Community 24`, `Community 25`, `Community 26`, `Community 27`, `Community 29`, `Community 30`?**
   _High betweenness centrality (0.024) - this node is a cross-community bridge._
-- **Why does `ProductTone` connect `Community 19` to `Community 32`, `Community 1`, `Community 11`, `Community 17`, `Community 18`, `Community 23`, `Community 24`, `Community 25`, `Community 26`, `Community 27`, `Community 29`, `Community 30`?**
-  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **Why does `ProductTone` connect `Community 19` to `Community 32`, `Community 1`, `Community 38`, `Community 11`, `Community 17`, `Community 18`, `Community 23`, `Community 24`, `Community 25`, `Community 26`, `Community 27`, `Community 29`, `Community 30`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **What connects `$schema`, `style`, `rsc` to the rest of the system?**
-  _1218 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1220 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.0030211480362537764 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.0632996632996633 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07215686274509804 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.0467687074829932 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
